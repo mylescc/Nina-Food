@@ -14,19 +14,36 @@
     <h1>Nina</h1>
     <h2>A Food Company</h2>
 </div>
+<nav>
+    <ul>
+        <li><a href="/book">book</a></li>
+        <li><a href="/parties">parties</a></li>
+        <li><a href="/ice-cream-and-cake">ice cream and cake</a></li>
+        <li><a href="/press">press</a></li>
+        <li><a href="/news">news</a></li>
+        <li><a href="/contact">contact</a></li>
+    </ul>
+</nav>
 
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script>
     var window_height = $(window).height();
     var central_text = $('#central-text').height();
+    var nav_height = $('nav').height();
     var displace = (window_height-central_text)/2;
+    var nav_displace = (window_height-nav_height);
+    console.log(window_height,nav_height,nav_displace)
     $('#central-text').css('margin-top', displace);
+    $('nav').css('margin-top',nav_displace)
     window.onresize = function(){
         var window_height = $(window).height();
         var central_text = $('#central-text').height();
+        var nav_height = $('nav').height();
         var displace = (window_height-central_text)/2;
+        var nav_displace = (window_height-nav_height);
         $('#central-text').css('margin-top', displace);
+        $('nav').css('margin-top',nav_displace)
     }
 </script>
 
