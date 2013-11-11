@@ -3,31 +3,104 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Nina</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
     <link rel="stylesheet" href="styles/main.css"/>
+    <link rel="stylesheet" href="styles/book.css"/>
 </head>
 <body>
-<nav>
-    <ul>
-        <li><a href="/book">book</a></li>
-        <li><a href="/parties">parties</a></li>
-        <li >
-            <a id="ice-cream">ice cream and cake</a>
-            <ul id="ice-cream-sub">
-                <li><a href="/van">Van</a></li>
-                <li><a href="/food">Food</a></li>
+<div class="container">
+    <nav class="navbar">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-target">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-collapse-target">
+            <ul class="nav navbar-nav">
+                <li><a href="/book">book</a></li>
+                <li><a href="/parties">parties</a></li>
+                <li class="dropdown">
+                    <a id="ice-cream">ice cream and cake</a>
+                    <ul id="ice-cream-sub">
+                        <li><a href="/van">Van</a></li>
+                        <li><a href="/food">Food</a></li>
+                    </ul>
+                </li>
+                <li><a href="/press">press</a></li>
+                <li>
+                    <a id="news">news</a>
+                    <ul id="news-sub">
+                        <li><a href="http://blog.ninafood.com">blog</a></li>
+                        <li><a href="/twitter">twitter</a></li>
+                        <li><a href="/facebook">facebook</a></li>
+                    </ul>
+                </li>
+                <li><a href="/story">story</a></li>
             </ul>
-        </li>
-        <li><a href="/press">press</a></li>
-        <li>
-            <a id="news">news</a>
-            <ul id="news-sub">
-                <li><a href="http://blog.ninafood.com">blog</a></li>
-                <li><a href="/twitter">twitter</a></li>
-                <li><a href="/facebook">facebook</a></li>
+        </div>
+    </nav>
+</div>
+<div class="container">
+<a href="/" class="nina">Nina</a>
+<div class="container">
+    <nav class="navbar">
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="/book">book</a></li>
+                <li><a href="/parties">parties</a></li>
+                <li class="dropdown">
+                    <a id="ice-cream">ice cream and cake</a>
+                    <ul id="ice-cream-sub">
+                        <li><a href="/van">Van</a></li>
+                        <li><a href="/food">Food</a></li>
+                    </ul>
+                </li>
+                <li><a href="/press">press</a></li>
+                <li>
+                    <a id="news">news</a>
+                    <ul id="news-sub">
+                        <li><a href="http://blog.ninafood.com">blog</a></li>
+                        <li><a href="/twitter">twitter</a></li>
+                        <li><a href="/facebook">facebook</a></li>
+                    </ul>
+                </li>
+                <li><a href="/story">story</a></li>
             </ul>
-        </li>
-        <li><a href="/story">story</a></li>
-    </ul>
-</nav>
+        </div>
+    </nav>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6">
+            <p>LOOK OUT FOR MY EXCITING NEW BOOK</p>
+            <p>“NINA, <span class="splendid">St Tropez</span>” OUT JUNE 2014.</p>
+            <p>“IT ALL STARTED WHEN MY PARENTS MET ON THE BEACHES OF ST TROPEZ DURING THE SUMMER HOLIDAYS WHEN THEY WERE YOUNG. SINCE THEN, MY FAMILY HAS CONTINUED TO COME TO THIS BEAUTIFUL LITTLE FISHING TOWN EVERY YEAR, AND I HAVEN’T SPENT A SINGLE SUMMER AWAY FROM IT SINCE I WAS BORN. THIS BOOK IS MY PERSONAL FOOD-THEMED JOURNEY ROUND THIS HISTORIC SEASIDE TOWN AND SURROUNDING AREA.  IN MY 70S CITROËN VAN, OUR NEIGHBOUR’S BOAT AND AT TIMES ON MY TRUSTY BICYCLE, I LOVE TO EXPLORE PROVENCAL CUISINE AND CREATE RECIPES INSPIRED BY THE LOCALS, PLACES AND STORIES OF MY SUMMERS HERE. I AM PASSIONATE ABOUT THE ST TROPEZ STYLE OF COOKING THAT IS PRINCIPALLY ABOUT STRONG, FRESH FLAVOURS CREATING SOMETHING COLOURFUL AND ABOVE ALL, UTTERLY DELICIOUS.”</p>
+        </div>
+        <div class="col-sm-6">
+            <img src="/images/book/book.png" alt="Nina on the beach"/>
+        </div>
+    </div>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+    var ice_width = $('#ice-cream').width();
+    var news_width = $('#news').width();
+    $('#news-sub>li').css('width',news_width);
+    $('#ice-cream-sub>li').css('width', ice_width);
+
+    $('#news').click(function(e){
+        console.log('woohoo')
+        e.preventDefault();
+        $('#news-sub>li').fadeToggle('slow');
+    });
+    $('#ice-cream').click(function(e){
+        e.preventDefault();
+        $('#ice-cream-sub>li').fadeToggle('slow');
+    })
+</script>
 </body>
 </html>

@@ -10,6 +10,17 @@ body, html {
   height: 100%;
   background: #e6e7e9; }
 
+a.nina {
+  display: block;
+  margin: 20px 0 0;
+  font-family: NeutraText;
+  text-transform: uppercase;
+  width: 100%;
+  color: white;
+  font-size: 10em;
+  text-align: center;
+  text-decoration: none; }
+
 nav {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -24,24 +35,27 @@ nav {
     display: block;
     width: 100%;
     margin: 0;
-    padding: 100px 0;
+    padding: 0 0 100px 0;
     font-family: NeutraText;
     list-style: none;
     text-align: center; }
     nav ul li {
       font-size: 20px;
-      padding: 0 40px;
+      padding: 0 49px;
       text-align: inherit;
       text-transform: uppercase;
       display: inline-block;
       cursor: pointer; }
       nav ul li a {
+        padding: 0 !important;
         color: white;
         text-decoration: none;
         text-shadow: 2px 2px black; }
         nav ul li a:hover {
           color: white;
-          text-decoration: none; }
+          text-decoration: none;
+          background: transparent;
+          background-color: transparent !important; }
       nav ul li > ul {
         z-index: 50;
         padding: 0;
@@ -52,6 +66,10 @@ nav {
           padding: 0;
           text-align: center;
           margin-top: 10px; }
+
+.icon-bar {
+  background-color: white;
+  border-radius: 1px; }
 
 @font-face {
   font-family: "SplendidOrnamenty";
