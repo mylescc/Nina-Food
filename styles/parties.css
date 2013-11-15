@@ -1,0 +1,31 @@
+a.nina {
+  color: #c6992c; }
+
+nav ul li a {
+  color: #c6992c;
+  text-shadow: none; }
+  nav ul li a:hover {
+    color: #c6992c; }
+
+img.mussels {
+  width: 100%; }
+
+h1 {
+  font-family: NeutraText;
+  font-size: 10em;
+  text-transform: uppercase;
+  color: white; }
+
+h2 {
+  font-family: SplendidOrnamenty;
+  font-size: 6em;
+  color: white; }
+
+p.text-center {
+  margin-top: 30px;
+  font-family: NeutraText;
+  font-size: 2em;
+  color: white;
+  text-transform: uppercase; }
+  p.text-center a {
+    color: white; }

@@ -1,3 +1,10 @@
+a.nina {
+  color: #c6992c; }
+
+nav ul li a {
+  color: #c6992c;
+  text-shadow: none; }
+
 p {
   text-transform: uppercase;
   color: #c6992c;
