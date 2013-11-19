@@ -1,3 +1,15 @@
+.nina-title a {
+  color: #c6992c;
+  text-decoration: none; }
+  .nina-title a:hover {
+    color: #c6992c; }
+
+p {
+  font-family: NeutraText;
+  font-size: 1.2em;
+  color: #c6992c;
+  text-transform: uppercase; }
+
 a.nina {
   color: #c6992c; }
 

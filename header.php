@@ -33,8 +33,10 @@
 <!--        </div>-->
 <!--    </nav>-->
 <!--</div>-->
+
 <div class="container">
-    <a href="/" class="nina">Nina</a>
+    <h1 class="nina-title text-center"><a href="/">Nina</a></h1>
+
     <div class="container">
         <nav class="navbar">
             <div class="collapse navbar-collapse">
