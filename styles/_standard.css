@@ -1,3 +1,9 @@
+h1 {
+  font-family: NeutraText;
+  font-size: 10em;
+  text-transform: uppercase;
+  color: white; }
+
 .nina-title a {
   color: #c6992c;
   text-decoration: none; }

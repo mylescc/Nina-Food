@@ -26,6 +26,8 @@ a.nina
 
 
 // Nav Styling
+.navbar
+  margin-bottom: 0
 nav
   -webkit-box-sizing: border-box
   -moz-box-sizing: border-box
@@ -40,7 +42,7 @@ nav
     display: block
     width: 100%
     margin: 0
-    padding: 0 0 100px 0
+    padding: 0 0 0 0
     font-family: NeutraText
     list-style: none
     text-align: center
@@ -61,16 +63,22 @@ nav
           text-decoration: none
           background: transparent
           background-color: transparent !important
-      > ul
-        z-index: 50
-        padding: 0
-        width: auto
-        position: absolute
-        li
-          display: none
-          padding: 0
-          text-align: center
-          margin-top: 10px
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus
+  background-color: $grey
+.dropdown-menu
+  background-color: $grey
+  border: none
+  box-shadow: none
+  li
+    display: block
+    text-align: center
+    padding: 10px 0
+    a
+      color: $gold
+      &:hover
+        color: $gold
+
+
 .icon-bar
   background-color: white
   border-radius: 1px

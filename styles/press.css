@@ -1,0 +1,34 @@
+h1 {
+  font-family: NeutraText;
+  font-size: 10em;
+  text-transform: uppercase;
+  color: white; }
+
+.nina-title a {
+  color: #c6992c;
+  text-decoration: none; }
+  .nina-title a:hover {
+    color: #c6992c; }
+
+p {
+  font-family: NeutraText;
+  font-size: 1.2em;
+  color: #c6992c;
+  text-transform: uppercase; }
+
+a.nina {
+  color: #c6992c; }
+
+nav ul li a {
+  color: #c6992c;
+  text-shadow: none; }
+  nav ul li a:hover {
+    color: #c6992c; }
+
+a {
+  width: 100%; }
+  a img {
+    width: 100%; }
+
+.row {
+  margin: 20px; }

@@ -52,3 +52,21 @@
     color: white;
     margin: 0;
     padding: 0; }
+
+.dropdown-menu {
+  background-color: transparent;
+  text-align: center;
+  border: none;
+  box-shadow: none; }
+  .dropdown-menu li {
+    display: block;
+    text-align: center;
+    padding: 0 0;
+    margin: 0; }
+    .dropdown-menu li a {
+      color: white; }
+      .dropdown-menu li a:hover {
+        color: white; }
+
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+  background-color: transparent; }

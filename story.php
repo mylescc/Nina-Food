@@ -13,7 +13,7 @@
 <div class="container">
     <div class="row">
         <div class="col-sm-4">
-            <p>Image goes here</p>
+            <img src="images/story/story.jpg" alt="Nina Parker"/>
         </div>
         <div class="col-sm-8">
             <p>WHEN I WAS LITTLE I USED TO GO TO THIS INCREDIBLE ICE CREAM AND CAKE PARLOUR CALLED DEL-REY IN THE SOUTH OF FRANCE. EVER SINCE I HAVE BEEN LUSTING AFTER ITS HOMEMADE DELICACIES HOPING TO DISCOVER DESSERTS THAT MIGHT COME CLOSE TO BEING EVEN HALF AS DELICIOUS.</p>
