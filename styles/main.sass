@@ -53,11 +53,17 @@ nav
       text-transform: uppercase
       display: inline-block
       cursor: pointer
+      @media (max-width: 1200px)
+        padding: 0 35px
+      @media (max-width: 992px)
+        padding: 0 16px
+
       a
         padding: 0 !important
         color: white
         text-decoration: none
-        text-shadow: 2px 2px black
+        text-shadow: 1px 1px black
+        
         &:hover
           color: #ffffff
           text-decoration: none
