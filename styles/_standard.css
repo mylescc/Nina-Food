@@ -5,22 +5,22 @@ h1 {
   color: white; }
 
 .nina-title a {
-  color: #c6992c;
+  color: white;
   text-decoration: none; }
   .nina-title a:hover {
-    color: #c6992c; }
+    color: white; }
 
 p {
   font-family: NeutraText;
   font-size: 1.2em;
-  color: #c6992c;
+  color: white;
   text-transform: uppercase; }
 
 a.nina {
-  color: #c6992c; }
+  color: white; }
 
 nav ul li a {
-  color: #c6992c;
+  color: white;
   text-shadow: none; }
   nav ul li a:hover {
-    color: #c6992c; }
+    color: white; }

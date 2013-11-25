@@ -56,7 +56,7 @@
                         <ul id="news-sub" class="dropdown-menu">
                             <li><a target="_blank" href="http://www.ninaicecream.com/">blog</a></li>
                             <li><a  target="_blank" href="https://twitter.com/antoninaparker">twitter</a></li>
-                            <li><a href="/facebook">facebook</a></li>
+                            <li><a target="_blank" href=" https://www.facebook.com/afoodcompany">facebook</a></li>
                         </ul>
                     </li>
                     <li><a href="/story.php">story</a></li>
