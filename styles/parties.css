@@ -38,3 +38,18 @@ p.text-center {
   color: white; }
   p.text-center a {
     color: white; }
+
+#parties {
+  background: url("/images/parties/parties.png") center no-repeat;
+  background-size: cover; }
+
+#title {
+  display: table;
+  margin: 0 auto;
+  padding: 200px 0; }
+  #title h1, #title h2 {
+    text-align: center;
+    margin: 0; }
+
+#details p {
+  margin: 0; }

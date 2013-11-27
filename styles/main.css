@@ -44,7 +44,7 @@ nav {
     text-align: center; }
     nav ul li {
       font-size: 20px;
-      padding: 0 49px;
+      padding: 0 65px;
       text-align: inherit;
       text-transform: uppercase;
       display: inline-block;
@@ -58,7 +58,8 @@ nav {
       nav ul li a {
         padding: 0 !important;
         color: white;
-        text-decoration: none; }
+        text-decoration: none;
+        text-shadow: 1px 1px #615a58; }
         nav ul li a:hover {
           color: white;
           text-decoration: none;
@@ -84,6 +85,9 @@ nav {
 .icon-bar {
   background-color: white;
   border-radius: 1px; }
+
+.spacer {
+  height: 50px; }
 
 @font-face {
   font-family: "SplendidOrnamenty";

@@ -1,3 +1,5 @@
+<div class="spacer"></div>
+
 <script src="js/jquery/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 

@@ -59,7 +59,6 @@
                             <li><a target="_blank" href=" https://www.facebook.com/afoodcompany">facebook</a></li>
                         </ul>
                     </li>
-                    <li><a href="/story.php">story</a></li>
                 </ul>
             </div>
         </nav>
