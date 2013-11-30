@@ -77,6 +77,25 @@
 
 
     $(document).ready(function(){
+        // Assign a variable for the application being used
+        var nVer = navigator.appVersion;
+        // Assign a variable for the device being used
+        var nAgt = navigator.userAgent;
+        var nameOffset,verOffset,ix;
+
+
+        // First check to see if the platform is an iPhone or iPod
+        if(navigator.platform == 'iPhone' || navigator.platform == 'iPod'){
+            // In Safari, the true version is after "Safari"
+            if ((verOffset=nAgt.indexOf('Safari'))!=-1) {
+                // Set a variable to use later
+                var mobileSafari = 'Safari';
+            }
+        }
+
+
+
+
         var window_height = $(window).height();
         var central_text = $('#central-text').height();
         var nav_height = $('nav').height()+80;
@@ -104,6 +123,13 @@
         console.log(width);
         if (width > 768){
             setInterval('cycleImages()', 7000);
+        } else{
+            if (mobileSafari == 'Safari') {
+                var x = $('#image').height();
+                // Height + 60px
+                $('#image').css('height',(x + 80)+'px');
+
+            }
         }
 
 
