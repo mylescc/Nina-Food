@@ -4,9 +4,17 @@ h1 {
   text-transform: uppercase;
   color: white; }
 
+@media (max-width: 768px) {
+  .nina-title {
+    margin: 0;
+    line-height: 116px; } }
 .nina-title a {
   color: white;
   text-decoration: none; }
+  @media (max-width: 768px) {
+    .nina-title a {
+      font-size: 116px;
+      margin-top: 0; } }
   .nina-title a:hover {
     color: white; }
 
@@ -24,6 +32,16 @@ nav ul li a {
   text-shadow: none; }
   nav ul li a:hover {
     color: white; }
+
+.mobile-nav {
+  border-top: 1px solid #a79e8f;
+  padding: 0;
+  margin: 0; }
+  .mobile-nav ul {
+    margin: 0; }
+  .mobile-nav li {
+    padding: 10px 0;
+    border-bottom: 1px solid #a79e8f; }
 
 img {
   width: 100%;

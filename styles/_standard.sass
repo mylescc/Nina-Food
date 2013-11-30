@@ -1,11 +1,16 @@
-$grey: #C9C3BA
-$gold: white
-
+$background: #C9C3BA
+$font: white
 
 
 $h1: 10em
 $h2: 6em
 $p: 1.2em
+
+//Media with Sizes
+$sm: 768px
+$md: 992px
+$lg: 1200px
+
 
 
 
@@ -17,25 +22,41 @@ h1
   color: white
 
 .nina-title
+  @media (max-width: $sm)
+    margin: 0
+    line-height: 116px
   a
-    color: $gold
+    color: $font
     text-decoration: none
+    @media (max-width: $sm)
+      font-size: 116px
+      margin-top: 0
     &:hover
-      color: $gold
+      color: $font
 p
   font-family: NeutraText
   font-size: $p
-  color: $gold
+  color: $font
   text-transform: uppercase
 
 
 a.nina
-  color: $gold
+  color: $font
 nav
   ul
     li
       a
-        color: $gold
+        color: $font
         text-shadow: none
         &:hover
-          color: $gold
+          color: $font
+
+.mobile-nav
+  border-top: 1px solid darken($background, 15%)
+  padding: 0
+  margin: 0
+  ul
+    margin: 0
+  li
+    padding: 10px 0
+    border-bottom: 1px solid darken($background, 15%)

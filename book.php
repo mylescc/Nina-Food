@@ -12,6 +12,11 @@
 
     <div class="container">
         <div class="row">
+            <div class="col-sm-5 visible-xs">
+                <p>
+                <img src="/images/book/book.png" alt="Nina on the beach"/>
+                </p>
+            </div>
             <div class="col-sm-7">
                 <p>Nina Parker is a london based chef</p>
                 <p>Her Training began after she left university where she met chef Francesco Mazzei and trained at his restaurant, L'anima in Liverpool street. Since then she has worked in some fantastic kitchens: Alain Ducasse at the dorchester, the ledbury and locanda locatelli. She later also worked as the head chef for Bocca Di Lupo's Gelupo in soho.</p>
@@ -22,7 +27,7 @@
 
                 <p><a href="http://www.amazon.co.uk/Nina-St-Tropez-Parker/dp/0297870688">Click here to order from Amazon</a></p>
             </div>
-            <div class="col-sm-5">
+            <div class="col-sm-5 hidden-xs">
                 <img src="/images/book/book.png" alt="Nina on the beach"/>
             </div>
         </div>

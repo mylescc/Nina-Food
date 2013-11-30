@@ -1,3 +1,8 @@
+//Media with Sizes
+$sm: 768px
+$md: 992px
+$lg: 1200px
+
 #image
   position: absolute
   background-size: cover
@@ -17,13 +22,21 @@
   background: url("/images/home/linguine.png")  no-repeat center
 #image-2
   background: url("/images/home/2.jpg") no-repeat center
+  @media (max-width: $sm)
+    background: none
 #image-4
   background: url("/images/home/4.jpg") no-repeat center
+  @media (max-width: $sm)
+    background: none
 #central-text
   position: absolute
   width: 100%
   text-align: center
   z-index: 500
+
+
+    
+
   h1
     width: 100%
     font-size: 13em
@@ -45,6 +58,13 @@
     color: white
     margin: 0
     padding: 0
+  @media (max-width: $sm)
+    position: relative
+    h1
+      font-size: 116px
+      padding-top: 50px
+    h2
+      font-size: 44px
 .dropdown-menu
   background-color: transparent
   text-align: center
@@ -62,4 +82,8 @@
 .nav .open>a, .nav .open>a:hover, .nav .open>a:focus
   background-color: transparent
 
-
+@media (max-width: $sm)
+  .navbar-nav
+    li
+      padding: 10px 0
+  

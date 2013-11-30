@@ -16,17 +16,30 @@ p.text-center
   a
     color: white
 
+.parties-container
+  @media (max-width: $sm)
+    margin: 0 15px
+
 #parties
   background: url('/images/parties/parties.png') center no-repeat
   background-size: cover
-
+  @media (max-width: $sm)
+    background: url('/images/parties/musselone.png') left no-repeat
+    background-size: cover
 #title
   display: table
   margin: 0 auto
   padding: 200px 0
+  @media (max-width: $sm)
+    padding: 100px 0
   h1,h2
     text-align: center
     margin: 0
+  h1
+    @media (max-width: $sm)
+      font-size: 110px
+
 #details
   p
     margin: 0
+

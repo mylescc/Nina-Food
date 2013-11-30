@@ -19,9 +19,15 @@
 
 #image-2 {
   background: url("/images/home/2.jpg") no-repeat center; }
+  @media (max-width: 768px) {
+    #image-2 {
+      background: none; } }
 
 #image-4 {
   background: url("/images/home/4.jpg") no-repeat center; }
+  @media (max-width: 768px) {
+    #image-4 {
+      background: none; } }
 
 #central-text {
   position: absolute;
@@ -49,6 +55,14 @@
     color: white;
     margin: 0;
     padding: 0; }
+  @media (max-width: 768px) {
+    #central-text {
+      position: relative; }
+      #central-text h1 {
+        font-size: 116px;
+        padding-top: 50px; }
+      #central-text h2 {
+        font-size: 44px; } }
 
 .dropdown-menu {
   background-color: transparent;
@@ -67,3 +81,7 @@
 
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
   background-color: transparent; }
+
+@media (max-width: 768px) {
+  .navbar-nav li {
+    padding: 10px 0; } }

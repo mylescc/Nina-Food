@@ -11,7 +11,7 @@
 <? include('header.php');?>
 
 
-<div class="container">
+<div class="container parties-container" >
 
     <div class="row">
         <div class="col-sm-12" id="parties">
@@ -22,7 +22,7 @@
             <div id="details">
                 <p class="text-center">FOR EVENT CATERING PLEASE CONTACT:</p>
                 <p class="text-center"><a href="tel:00447867541571">+44 (0) 7867541571</a></p>
-                <p class="text-center">NINAPARKER@HOTMAIL.COM</p>
+                <p class="text-center"><a href="mailto:ninaparker@hotmail.com">NINAPARKER@HOTMAIL.COM</a></p>
             </div>s
         </div>
     </div>

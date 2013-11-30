@@ -1,5 +1,5 @@
-$grey: #C9C3BA
-$gold: white
+$background: #C9C3BA
+$font: white
 
 $oldgold:#C6992C
 
@@ -12,7 +12,7 @@ body, html
   margin: 0
   width: 100%
   height: 100%
-  background: $grey
+  background: $background
 
 
 a.nina
@@ -25,6 +25,7 @@ a.nina
   font-size: 10em
   text-align: center
   text-decoration: none
+
 
 
 // Nav Styling
@@ -72,9 +73,9 @@ nav
           background: transparent
           background-color: transparent !important
 .nav .open>a, .nav .open>a:hover, .nav .open>a:focus
-  background-color: $grey
+  background-color: $background
 .dropdown-menu
-  background-color: $grey
+  background-color: $background
   border: none
   box-shadow: none
   li
@@ -82,22 +83,24 @@ nav
     text-align: center
     padding: 10px 0
     a
-      color: $gold
+      color: $font
       &:hover
-        color: $gold
+        color: $font
 
 
 .icon-bar
   background-color: white
   border-radius: 1px
 
+
+  // for my footer
 .myles-link
-  color: darken($grey,10%)
+  color: darken($background,10%)
   font-family: NeutraText
   text-transform: uppercase
   font-size: 12px
   &:hover
-    color: darken($grey,20%)
+    color: darken($background,20%)
 
 .spacer
   height: 50px
