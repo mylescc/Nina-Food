@@ -5,6 +5,8 @@ $lg: 1200px
 
 #image
   position: absolute
+  @media (max-width: $sm)
+    position: fixed
   background-size: cover
   width: 100%
   height: 100%
@@ -20,6 +22,9 @@ $lg: 1200px
     z-index: 3
 #image-1
   background: url("/images/home/linguine.png")  no-repeat center
+  @media (max-width: $sm)
+    background-size: cover
+
 #image-2
   background: url("/images/home/2.jpg") no-repeat center
   @media (max-width: $sm)
@@ -33,10 +38,6 @@ $lg: 1200px
   width: 100%
   text-align: center
   z-index: 500
-
-
-    
-
   h1
     width: 100%
     font-size: 13em

@@ -4,19 +4,21 @@ h1 {
   text-transform: uppercase;
   color: white; }
 
-@media (max-width: 768px) {
-  .nina-title {
-    margin: 0;
-    line-height: 116px; } }
-.nina-title a {
-  color: white;
-  text-decoration: none; }
+.nina-title {
+  margin-bottom: 0; }
   @media (max-width: 768px) {
-    .nina-title a {
-      font-size: 116px;
-      margin-top: 0; } }
-  .nina-title a:hover {
-    color: white; }
+    .nina-title {
+      margin: 0;
+      line-height: 116px; } }
+  .nina-title a {
+    color: white;
+    text-decoration: none; }
+    @media (max-width: 768px) {
+      .nina-title a {
+        font-size: 116px;
+        margin-top: 0; } }
+    .nina-title a:hover {
+      color: white; }
 
 p {
   font-family: NeutraText;

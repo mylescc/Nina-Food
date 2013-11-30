@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html prefix="og: http://ogp.me/ns#">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Nina</title>
+    <title>NINA - Book</title>
     <? include('head.php');?>
+    <meta property="og:url" content="http://www.ninafood.com/book.php"/>
+    <meta name="twitter:url" content="http://www.ninafood.com/book.php"/>
     <link rel="stylesheet" href="styles/book.css"/>
 </head>
 <body>

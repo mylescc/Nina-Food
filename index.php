@@ -1,12 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html prefix="og: http://ogp.me/ns#">
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Nina</title>
+    <title>NINA</title>
+    <meta name="description" content="NINA is a London based food company."/>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
     <link rel="stylesheet" href="css/bootstrap.min.css"/>
     <link rel="stylesheet" href="styles/main.css"/>
     <link rel="stylesheet" href="styles/home.css"/>
+<!--    For Facebook-->
+    <meta property="og:title" content="NINA - A Food Company"/>
+    <meta property="og:image" content="http://www.ninafood.com/images/facebook/display-image.png"/>
+    <meta property="og:description" content="NINA is a London based food company."/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="http://www.ninafood.com/"/>
+    <meta property="og:site_name" content="NINA - A Food Company"/>
+<!--    For Twitter-->
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:creator" content="@antoninaparker"/>
+    <meta name="twitter:site" content="@antoninaparker"/>
+
 </head>
 
 <body>
@@ -58,35 +74,47 @@
 <script src="/js/bootstrap.min.js"></script>
 
 <script>
-    var window_height = $(window).height();
-    var central_text = $('#central-text').height();
-    var nav_height = $('nav').height()+80;
-    var displace = (window_height-central_text)/2;
-    var nav_displace = (window_height-nav_height);
-    var width = $(window).width();
 
-    if (width > 768){
-        $('#central-text').css('margin-top', displace);
-        $('nav').css('margin-top',nav_displace)
-    }
-
-    window.onresize = function(){
-        var window_height = $(window).height();
-        var central_text = $('#central-text').height();
-        var nav_height = $('nav').height() + 80;
-        var displace = (window_height-central_text)/2;
-        var nav_displace = (window_height-nav_height);
-        $('#central-text').css('margin-top', displace);
-        $('nav').css('margin-top',nav_displace)
-    }
 
     $(document).ready(function(){
+        var window_height = $(window).height();
+        var central_text = $('#central-text').height();
+        var nav_height = $('nav').height()+80;
+        var displace = (window_height-central_text)/2;
+        var nav_displace = (window_height-nav_height);
         var width = $(window).width();
+
+        if (width > 768){
+            $('#central-text').css('margin-top', displace);
+            $('nav').css('margin-top',nav_displace)
+        }
+
+        window.onresize = function(){
+            if (width > 768){
+                var window_height = $(window).height();
+                var central_text = $('#central-text').height();
+                var nav_height = $('nav').height() + 80;
+                var displace = (window_height-central_text)/2;
+                var nav_displace = (window_height-nav_height);
+                $('#central-text').css('margin-top', displace);
+                $('nav').css('margin-top',nav_displace)
+            }
+        }
+        var width = $(window).width();
+        console.log(width);
         if (width > 768){
             setInterval('cycleImages()', 7000);
         }
-    })
 
+
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-46030708-1', 'ninafood.com');
+        ga('send', 'pageview');
+    })
     function cycleImages(){
         var $active = $('#image .active');
         var $next = ($active.next().length > 0) ? $active.next() : $('#image div:first');
@@ -97,13 +125,7 @@
         });
     }
 
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-    ga('create', 'UA-46030708-1', 'ninafood.com');
-    ga('send', 'pageview');
 
 </script>
 
