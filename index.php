@@ -13,7 +13,6 @@
 <div id="image" class="carousel slide">
     <div id="image-1" class="item active"></div>
     <div id="image-2" class="item"></div>
-    <div id="image-3" class="item"></div>
     <div id="image-4" class="item"></div>
 </div>
 <div id="central-text">
@@ -94,20 +93,10 @@
         $('nav').css('margin-top',nav_displace)
     }
 
-//    var ice_width = $('#ice-cream').width();
-//    var news_width = $('#news').width();
-//    $('#news-sub>li').css('width',news_width);
-//    $('#ice-cream-sub>li').css('width', ice_width);
+    $(document).ready(function(){
+        setInterval('cycleImages()', 7000);
+    })
 
-//    $('#news').click(function(e){
-//        console.log('woohoo')
-//        e.preventDefault();
-//        $('#news-sub>li').fadeToggle('slow');
-//    });
-//    $('#ice-cream').click(function(e){
-//        e.preventDefault();
-//        $('#ice-cream-sub>li').fadeToggle('slow');
-//    })
     function cycleImages(){
         var $active = $('#image .active');
         var $next = ($active.next().length > 0) ? $active.next() : $('#image div:first');
@@ -117,10 +106,7 @@
             $next.css('z-index',3).addClass('active');//make the next image the top one
         });
     }
-    setInterval('cycleImages()', 7000);
 
-</script>
-<script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
