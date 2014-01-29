@@ -1,0 +1,15 @@
+{
+	"wpVer": "3.8.1",
+	"url": "http://dev.ninafood.com",
+	"tablePrefix": "wp_",
+	"dbHost": "localhost",
+	"dbName": "ninafood",
+	"dbUser": "root",
+	"dbPass": "",
+	"git": false,
+	"customDirs": false,
+	"installTheme": false,
+	"wpDir": ".",
+	"contentDir": "wp-content",
+	"saltKeys": "define('AUTH_KEY',         'c#jg5at{a2 +*QJ%+e,WPS#*3GsQHc@NI69CwSy9H]D|Qy#VJ3uSwhGD_|L8y(M.');\ndefine('SECURE_AUTH_KEY',  'ns!`9[}tDR]OkH.90m_S<Ty=F?fXzDvl&l+!-j7x69qbWhHnhkwyTnyG:jc03C8`');\ndefine('LOGGED_IN_KEY',    'O%~@3k%u~JP^B:H?5z xJthG-{]:2--;5u{G0CfV~,HQHVfl+6P&2N-B*`~u}8i|');\ndefine('NONCE_KEY',        'Ci0-8jmr~#|k3iK:d9X|OF#HY_d$V/FW:8V,jRR|io|p|-ud/T:K-dFktzc2kGbd');\ndefine('AUTH_SALT',        '|2&:G-E85FYz_c{+*ylB5yh->~jp:V,z-VOUI.9Ns-nqDeo}Al6I[;uE:VU>x+b|');\ndefine('SECURE_AUTH_SALT', 'Rtup8)A3 )M*bb}5@}GI<?Yt/ 2d6*|dm|uzN$)}u wQQl*PMt8`LK:B.kVu/0i.');\ndefine('LOGGED_IN_SALT',   'l|WcFv9aE+7vHLC-iA$7[74-i?}^!cqQI}6vTWtJLu67A }P**Ote}#-R|4>jIxb');\ndefine('NONCE_SALT',       'eGHHP0K->SjwZsQl0^6*<ia?z E*Y-rS{/oC-h{]Vt.CJy0*+R0I(f3jTOrn/fu ');\n"
+}

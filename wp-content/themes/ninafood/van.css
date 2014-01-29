@@ -1,0 +1,80 @@
+/* line 18, sass/_standard.sass */
+h1 {
+  font-family: NeutraText;
+  font-size: 10em;
+  text-transform: uppercase;
+  color: white;
+}
+
+/* line 25, sass/_standard.sass */
+.nina-title {
+  margin-bottom: 0;
+}
+@media (max-width: 768px) {
+  /* line 25, sass/_standard.sass */
+  .nina-title {
+    margin: 0;
+    line-height: 116px;
+  }
+}
+/* line 31, sass/_standard.sass */
+.nina-title a {
+  color: white;
+  text-decoration: none;
+}
+@media (max-width: 768px) {
+  /* line 31, sass/_standard.sass */
+  .nina-title a {
+    font-size: 116px;
+    margin-top: 0;
+  }
+}
+/* line 37, sass/_standard.sass */
+.nina-title a:hover {
+  color: white;
+}
+
+/* line 39, sass/_standard.sass */
+p {
+  font-family: NeutraText;
+  font-size: 1.2em;
+  color: white;
+  text-transform: uppercase;
+}
+
+/* line 46, sass/_standard.sass */
+a.nina {
+  color: white;
+}
+
+/* line 51, sass/_standard.sass */
+nav ul li a {
+  color: white;
+  text-shadow: none;
+}
+/* line 54, sass/_standard.sass */
+nav ul li a:hover {
+  color: white;
+}
+
+/* line 57, sass/_standard.sass */
+.mobile-nav {
+  border-top: 1px solid #a79e8f;
+  padding: 0;
+  margin: 0;
+}
+/* line 61, sass/_standard.sass */
+.mobile-nav ul {
+  margin: 0;
+}
+/* line 63, sass/_standard.sass */
+.mobile-nav li {
+  padding: 10px 0;
+  border-bottom: 1px solid #a79e8f;
+}
+
+/* line 3, sass/van.sass */
+.van-image {
+  width: 100%;
+  padding-bottom: 30px;
+}
