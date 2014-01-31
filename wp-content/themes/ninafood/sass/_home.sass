@@ -1,91 +1,88 @@
 //Media with Sizes
-$sm: 768px
-$md: 992px
-$lg: 1200px
 
-#image
-  position: absolute
-  @media (max-width: $sm)
-    position: fixed
-  background-size: cover
-  width: 100%
-  height: 100%
-  padding: 0
-  margin: 0
-  .item
-    z-index: 1
+#home
+  #image
+    position: absolute
+    @media (max-width: $sm)
+      position: fixed
+    background-size: cover
     width: 100%
     height: 100%
+    padding: 0
+    margin: 0
+    .item
+      z-index: 1
+      width: 100%
+      height: 100%
+      position: absolute
+      background-size: cover
+    .item.active
+      z-index: 3
+  #image-1
+    background: url("/wp-content/themes/ninafood/images/home/linguine.png")  no-repeat center
+    @media (max-width: $sm)
+      background: url('//wp-content/themes/ninafoodimages/home/mobile-linguine.png') no-repeat center
+      background-size: contain
+
+  #image-2
+    background: url("/wp-content/themes/ninafood/images/home/2.jpg") no-repeat center
+    @media (max-width: $sm)
+      background: none
+  #image-4
+    background: url("/wp-content/themes/ninafood/images/home/4.jpg") no-repeat center
+    @media (max-width: $sm)
+      background: none
+  #central-text
     position: absolute
-    background-size: cover
-  .item.active
-    z-index: 3
-#image-1
-  background: url("/images/home/linguine.png")  no-repeat center
-  @media (max-width: $sm)
-    background: url('/images/home/mobile-linguine.png') no-repeat center
-    background-size: contain
-
-#image-2
-  background: url("/images/home/2.jpg") no-repeat center
-  @media (max-width: $sm)
-    background: none
-#image-4
-  background: url("/images/home/4.jpg") no-repeat center
-  @media (max-width: $sm)
-    background: none
-#central-text
-  position: absolute
-  width: 100%
-  text-align: center
-  z-index: 500
-  h1
     width: 100%
-    font-size: 13em
-    vertical-align: middle
-    text-align: inherit
-    font-family: NeutraText
-    font-weight: normal
-    color: white
-    margin: 0
-    padding: 0
-    text-transform: uppercase
-  h2
-    width: 100%
-    font-size: 90px
-    line-height: 70px
-    text-align: inherit
-    font-family: SplendidOrnamenty
-    font-weight: normal
-    color: white
-    margin: 0
-    padding: 0
-  @media (max-width: $sm)
-    position: relative
-    h1
-      font-size: 116px
-      padding-top: 50px
-    h2
-      font-size: 44px
-.dropdown-menu
-  background-color: transparent
-  text-align: center
-  border: none
-  box-shadow: none
-  li
-    display: block
     text-align: center
-    padding: 0 0
-    margin: 0
-    a
+    z-index: 500
+    h1
+      width: 100%
+      font-size: 13em
+      vertical-align: middle
+      text-align: inherit
+      font-family: NeutraText
+      font-weight: normal
       color: white
-      &:hover
-        color: white
-.nav .open>a, .nav .open>a:hover, .nav .open>a:focus
-  background-color: transparent
-
-@media (max-width: $sm)
-  .navbar-nav
+      margin: 0
+      padding: 0
+      text-transform: uppercase
+    h2
+      width: 100%
+      font-size: 90px
+      line-height: 70px
+      text-align: inherit
+      font-family: SplendidOrnamenty
+      font-weight: normal
+      color: white
+      margin: 0
+      padding: 0
+    @media (max-width: $sm)
+      position: relative
+      h1
+        font-size: 116px
+        padding-top: 50px
+      h2
+        font-size: 44px
+  .dropdown-menu
+    background-color: transparent
+    text-align: center
+    border: none
+    box-shadow: none
     li
-      padding: 10px 0
-  
+      display: block
+      text-align: center
+      padding: 0 0
+      margin: 0
+      a
+        color: white
+        &:hover
+          color: white
+  .nav .open>a, .nav .open>a:hover, .nav .open>a:focus
+    background-color: transparent
+
+  @media (max-width: $sm)
+    .navbar-nav
+      li
+        padding: 10px 0
