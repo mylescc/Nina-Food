@@ -41,29 +41,29 @@
 <div class="container">
     <nav class="navbar">
         <ul class="nav navbar-nav">
-            <li><a href="/book">book</a></li>
-            <li><a href="/parties">parties</a></li>
+            <li><a class="home-nav" href="/book">book</a></li>
+            <li><a class="home-nav"  href="/parties">parties</a></li>
             <li class="dropdown hidden-xs">
                 <a id="ice-cream"  class="dropdown-toggle" data-toggle="dropdown">ice cream and cake</a>
                 <ul id="ice-cream-sub" class="dropdown-menu">
-                    <li><a href="/van">Van</a></li>
-                    <li><a href="/food">Food</a></li>
+                    <li><a class="home-nav"  href="/van">Van</a></li>
+                    <li><a  class="home-nav" href="/food">Food</a></li>
                 </ul>
             </li>
-            <li class="visible-xs"><a href="/van">Van</a></li>
-            <li class="visible-xs"><a href="/food">Food</a></li>
-            <li><a href="/press">press</a></li>
+            <li class="visible-xs"><a class="home-nav" href="/van">Van</a></li>
+            <li class="visible-xs"><a class="home-nav" href="/food">Food</a></li>
+            <li><a class="home-nav" href="/press">press</a></li>
             <li class="hidden-xs">
-                <a id="news" class="dropdown-toggle" data-toggle="dropdown">news</a>
+                <a id="news" class="dropdown-toggle home-nav" data-toggle="dropdown">news</a>
                 <ul id="news-sub" class="dropdown-menu">
-                    <li><a target="_blank" href="http://www.ninaicecream.com/">blog</a></li>
-                    <li><a  target="_blank" href="https://twitter.com/antoninaparker">twitter</a></li>
-                    <li><a target="_blank" href=" https://www.facebook.com/afoodcompany">facebook</a></li>
+                    <li><a class="home-nav" target="_blank" href="http://www.ninaicecream.com/">blog</a></li>
+                    <li><a class="home-nav" target="_blank" href="https://twitter.com/antoninaparker">twitter</a></li>
+                    <li><a class="home-nav" target="_blank" href=" https://www.facebook.com/afoodcompany">facebook</a></li>
                 </ul>
             </li>
-            <li class="visible-xs"><a target="_blank" href="http://www.ninaicecream.com/">blog</a></li>
-            <li class="visible-xs"><a  target="_blank" href="https://twitter.com/antoninaparker">twitter</a></li>
-            <li class="visible-xs"><a target="_blank" href=" https://www.facebook.com/afoodcompany">facebook</a></li>
+            <li class="visible-xs"><a class="home-nav" target="_blank" href="http://www.ninaicecream.com/">blog</a></li>
+            <li class="visible-xs"><a class="home-nav" target="_blank" href="https://twitter.com/antoninaparker">twitter</a></li>
+            <li class="visible-xs"><a class="home-nav" target="_blank" href=" https://www.facebook.com/afoodcompany">facebook</a></li>
         </ul>
     </nav>
 </div>

@@ -14,6 +14,10 @@ $sm: 768px
 $md: 992px
 $lg: 1200px
 
+$h1: 10em
+$h2: 6em
+$p: 1.2em
+
 *
   -webkit-box-sizing: border-box
   -moz-box-sizing: border-box
@@ -37,15 +41,10 @@ a.nina
   text-align: center
   text-decoration: none
 
-
-
 // Nav Styling
 .navbar
   margin-bottom: 20px
 nav
-  -webkit-box-sizing: border-box
-  -moz-box-sizing: border-box
-  box-sizing: border-box
   position: absolute
   color: white
   padding: 0
@@ -71,13 +70,12 @@ nav
         padding: 0 35px
       @media (max-width: 992px)
         padding: 0 16px
-
       a
         padding: 0 !important
         color: white
         text-decoration: none
-        text-shadow: 1px 1px darken(#7C7370,10%)
-
+        &.home-nav
+          text-shadow: 1px 1px darken(#7C7370,10%)
         &:hover
           color: #ffffff
           text-decoration: none
@@ -104,6 +102,18 @@ nav
   border-radius: 1px
 
 
+// Used everywhere
+p
+  font-family: NeutraText
+  font-size: $p
+  color: $font
+  text-transform: uppercase
+  a
+    color: white
+    &:hover
+      color: white
+
+
 // for my footer
 .myles-link
   color: darken($background,10%)
@@ -122,6 +132,8 @@ nav
   max-width: 100%
 
 @import "home"
+@import "standard"
+@import "header"
 
 
 @font-face

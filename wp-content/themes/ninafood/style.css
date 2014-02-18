@@ -3,14 +3,14 @@
  * Description: Wordpress theme for NinaFood.com
  * Version: 1.0
  */
-/* line 17, sass/style.sass */
+/* line 21, sass/style.sass */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 21, sass/style.sass */
+/* line 25, sass/style.sass */
 body, html {
   padding: 0;
   margin: 0;
@@ -19,7 +19,7 @@ body, html {
   background: #c9c3ba;
 }
 
-/* line 29, sass/style.sass */
+/* line 33, sass/style.sass */
 a.nina {
   display: block;
   margin: 20px 0 0;
@@ -32,16 +32,13 @@ a.nina {
   text-decoration: none;
 }
 
-/* line 43, sass/style.sass */
+/* line 45, sass/style.sass */
 .navbar {
   margin-bottom: 20px;
 }
 
-/* line 45, sass/style.sass */
+/* line 47, sass/style.sass */
 nav {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
   position: absolute;
   color: white;
   padding: 0;
@@ -49,7 +46,7 @@ nav {
   width: 100%;
   z-index: 500;
 }
-/* line 55, sass/style.sass */
+/* line 54, sass/style.sass */
 nav ul {
   display: block;
   width: 100%;
@@ -59,7 +56,7 @@ nav ul {
   list-style: none;
   text-align: center;
 }
-/* line 63, sass/style.sass */
+/* line 62, sass/style.sass */
 nav ul li {
   font-size: 20px;
   padding: 0 65px;
@@ -69,25 +66,28 @@ nav ul li {
   cursor: pointer;
 }
 @media (max-width: 1200px) {
-  /* line 63, sass/style.sass */
+  /* line 62, sass/style.sass */
   nav ul li {
     padding: 0 35px;
   }
 }
 @media (max-width: 992px) {
-  /* line 63, sass/style.sass */
+  /* line 62, sass/style.sass */
   nav ul li {
     padding: 0 16px;
   }
 }
-/* line 75, sass/style.sass */
+/* line 73, sass/style.sass */
 nav ul li a {
   padding: 0 !important;
   color: white;
   text-decoration: none;
+}
+/* line 77, sass/style.sass */
+nav ul li a.home-nav {
   text-shadow: 1px 1px #615a58;
 }
-/* line 81, sass/style.sass */
+/* line 79, sass/style.sass */
 nav ul li a:hover {
   color: white;
   text-decoration: none;
@@ -95,56 +95,72 @@ nav ul li a:hover {
   background-color: transparent !important;
 }
 
-/* line 86, sass/style.sass */
+/* line 84, sass/style.sass */
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
   background-color: #c9c3ba;
 }
 
-/* line 88, sass/style.sass */
+/* line 86, sass/style.sass */
 .dropdown-menu {
   background-color: #c9c3ba;
   border: none;
   box-shadow: none;
 }
-/* line 92, sass/style.sass */
+/* line 90, sass/style.sass */
 .dropdown-menu li {
   display: block;
   text-align: center;
   padding: 10px 0;
 }
-/* line 96, sass/style.sass */
+/* line 94, sass/style.sass */
 .dropdown-menu li a {
   color: white;
 }
-/* line 98, sass/style.sass */
+/* line 96, sass/style.sass */
 .dropdown-menu li a:hover {
   color: white;
 }
 
-/* line 102, sass/style.sass */
+/* line 100, sass/style.sass */
 .icon-bar {
   background-color: white;
   border-radius: 1px;
 }
 
-/* line 108, sass/style.sass */
+/* line 106, sass/style.sass */
+p {
+  font-family: NeutraText;
+  font-size: 1.2em;
+  color: white;
+  text-transform: uppercase;
+}
+/* line 111, sass/style.sass */
+p a {
+  color: white;
+}
+/* line 113, sass/style.sass */
+p a:hover {
+  color: white;
+}
+
+/* line 118, sass/style.sass */
 .myles-link {
   color: #b3aa9d;
   font-family: NeutraText;
   text-transform: uppercase;
   font-size: 12px;
 }
-/* line 113, sass/style.sass */
+/* line 123, sass/style.sass */
 .myles-link:hover {
   color: #9c9181;
 }
 
-/* line 116, sass/style.sass */
+/* line 126, sass/style.sass */
 .spacer {
   height: 50px;
 }
 
-/* line 120, sass/style.sass */
+/* line 130, sass/style.sass */
 .wp-post-image {
   height: auto;
   max-width: 100%;
@@ -184,38 +200,38 @@ nav ul li a:hover {
 @media (max-width: 768px) {
   /* line 21, sass/_home.sass */
   #home #image-1 {
-    background: url("//wp-content/themes/ninafoodimages/home/mobile-linguine.png") no-repeat center;
+    background: url("/wp-content/themes/ninafood/images/home/mobile-linguine.png") no-repeat center;
     background-size: contain;
   }
 }
-/* line 27, sass/_home.sass */
+/* line 26, sass/_home.sass */
 #home #image-2 {
   background: url("/wp-content/themes/ninafood/images/home/2.jpg") no-repeat center;
 }
 @media (max-width: 768px) {
-  /* line 27, sass/_home.sass */
+  /* line 26, sass/_home.sass */
   #home #image-2 {
     background: none;
   }
 }
-/* line 31, sass/_home.sass */
+/* line 30, sass/_home.sass */
 #home #image-4 {
   background: url("/wp-content/themes/ninafood/images/home/4.jpg") no-repeat center;
 }
 @media (max-width: 768px) {
-  /* line 31, sass/_home.sass */
+  /* line 30, sass/_home.sass */
   #home #image-4 {
     background: none;
   }
 }
-/* line 35, sass/_home.sass */
+/* line 34, sass/_home.sass */
 #home #central-text {
   position: absolute;
   width: 100%;
   text-align: center;
   z-index: 500;
 }
-/* line 40, sass/_home.sass */
+/* line 39, sass/_home.sass */
 #home #central-text h1 {
   width: 100%;
   font-size: 13em;
@@ -228,7 +244,7 @@ nav ul li a:hover {
   padding: 0;
   text-transform: uppercase;
 }
-/* line 51, sass/_home.sass */
+/* line 50, sass/_home.sass */
 #home #central-text h2 {
   width: 100%;
   font-size: 90px;
@@ -241,51 +257,99 @@ nav ul li a:hover {
   padding: 0;
 }
 @media (max-width: 768px) {
-  /* line 35, sass/_home.sass */
+  /* line 34, sass/_home.sass */
   #home #central-text {
     position: relative;
   }
-  /* line 63, sass/_home.sass */
+  /* line 62, sass/_home.sass */
   #home #central-text h1 {
     font-size: 116px;
     padding-top: 50px;
   }
-  /* line 66, sass/_home.sass */
+  /* line 65, sass/_home.sass */
   #home #central-text h2 {
     font-size: 44px;
   }
 }
-/* line 68, sass/_home.sass */
+/* line 67, sass/_home.sass */
 #home .dropdown-menu {
   background-color: transparent;
   text-align: center;
   border: none;
   box-shadow: none;
 }
-/* line 73, sass/_home.sass */
+/* line 72, sass/_home.sass */
 #home .dropdown-menu li {
   display: block;
   text-align: center;
   padding: 0 0;
   margin: 0;
 }
-/* line 78, sass/_home.sass */
+/* line 77, sass/_home.sass */
 #home .dropdown-menu li a {
   color: white;
 }
-/* line 80, sass/_home.sass */
+/* line 79, sass/_home.sass */
 #home .dropdown-menu li a:hover {
   color: white;
 }
-/* line 82, sass/_home.sass */
+/* line 81, sass/_home.sass */
 #home .nav .open > a, #home .nav .open > a:hover, #home .nav .open > a:focus {
   background-color: transparent;
 }
 @media (max-width: 768px) {
-  /* line 87, sass/_home.sass */
+  /* line 86, sass/_home.sass */
   #home .navbar-nav li {
     padding: 10px 0;
   }
+}
+
+/* line 4, sass/_standard.sass */
+a.nina {
+  color: white;
+}
+
+/* line 9, sass/_standard.sass */
+nav ul li a {
+  color: white;
+  text-shadow: none;
+}
+/* line 12, sass/_standard.sass */
+nav ul li a:hover {
+  color: white;
+}
+
+/* line 15, sass/_standard.sass */
+.mobile-nav {
+  border-top: 1px solid #a79e8f;
+  padding: 0;
+  margin: 0;
+}
+/* line 19, sass/_standard.sass */
+.mobile-nav ul {
+  margin: 0;
+}
+/* line 21, sass/_standard.sass */
+.mobile-nav li {
+  padding: 10px 0;
+  border-bottom: 1px solid #a79e8f;
+}
+
+/* line 1, sass/_header.sass */
+.nina-title {
+  color: white;
+  font-family: NeutraText;
+  font-size: 10em;
+  text-transform: uppercase;
+}
+/* line 6, sass/_header.sass */
+.nina-title a {
+  color: white;
+}
+/* line 8, sass/_header.sass */
+.nina-title a:hover {
+  color: white;
+  text-decoration: none;
 }
 
 @font-face {
