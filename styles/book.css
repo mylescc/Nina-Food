@@ -1,63 +1,108 @@
+/* line 18, _standard.sass */
 h1 {
   font-family: NeutraText;
   font-size: 10em;
   text-transform: uppercase;
-  color: white; }
+  color: white;
+}
 
+/* line 25, _standard.sass */
+.nina-title {
+  margin-bottom: 0;
+}
 @media (max-width: 768px) {
+  /* line 25, _standard.sass */
   .nina-title {
     margin: 0;
-    line-height: 116px; } }
+    line-height: 116px;
+  }
+}
+/* line 31, _standard.sass */
 .nina-title a {
   color: white;
-  text-decoration: none; }
-  @media (max-width: 768px) {
-    .nina-title a {
-      font-size: 116px;
-      margin-top: 0; } }
-  .nina-title a:hover {
-    color: white; }
+  text-decoration: none;
+}
+@media (max-width: 768px) {
+  /* line 31, _standard.sass */
+  .nina-title a {
+    font-size: 116px;
+    margin-top: 0;
+  }
+}
+/* line 37, _standard.sass */
+.nina-title a:hover {
+  color: white;
+}
 
+/* line 39, _standard.sass */
 p {
   font-family: NeutraText;
   font-size: 1.2em;
   color: white;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+}
 
+/* line 46, _standard.sass */
 a.nina {
-  color: white; }
+  color: white;
+}
 
+/* line 51, _standard.sass */
 nav ul li a {
   color: white;
-  text-shadow: none; }
-  nav ul li a:hover {
-    color: white; }
+  text-shadow: none;
+}
+/* line 54, _standard.sass */
+nav ul li a:hover {
+  color: white;
+}
 
+/* line 57, _standard.sass */
 .mobile-nav {
   border-top: 1px solid #a79e8f;
   padding: 0;
-  margin: 0; }
-  .mobile-nav ul {
-    margin: 0; }
-  .mobile-nav li {
-    padding: 10px 0;
-    border-bottom: 1px solid #a79e8f; }
+  margin: 0;
+}
+/* line 61, _standard.sass */
+.mobile-nav ul {
+  margin: 0;
+}
+/* line 63, _standard.sass */
+.mobile-nav li {
+  padding: 10px 0;
+  border-bottom: 1px solid #a79e8f;
+}
 
+/* line 5, book.sass */
 p {
   text-transform: uppercase;
   color: white;
   font-family: NeutraText;
   text-align: left;
-  font-size: 20px; }
+  font-size: 20px;
+}
 
+/* line 11, book.sass */
+.big-and-bold {
+  font-size: 26px !important;
+}
+
+/* line 14, book.sass */
 span.splendid {
   font-family: SplendidOrnamenty;
-  text-transform: none; }
+  text-transform: none;
+}
 
+/* line 17, book.sass */
 img {
-  width: 100%; }
+  width: 100%;
+}
 
+/* line 19, book.sass */
 a {
-  color: white; }
-  a:hover {
-    color: white; }
+  color: white;
+}
+/* line 21, book.sass */
+a:hover {
+  color: white;
+}

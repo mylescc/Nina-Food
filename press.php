@@ -16,37 +16,41 @@
 <div class="container">
     <div class="row">
         <div class="col-sm-4">
-            <a href="images/press/Nina_Tatler.pdf">
+            <a href="images/press/Nina_Tatler.pdf" target="_blank">
                 <img src="images/press/tatler-logo.png" alt="Nina's Tatler Article"/>
             </a>
         </div>
         <div class="col-sm-4">
-            <a href="images/press/STYLE.pdf">
+            <a href="images/press/STYLE.pdf" target="_blank">
                 <img src="images/press/style-logo.jpg" alt="Style"/>
             </a>
         </div>
         <div class="col-sm-4">
-            <a href="images/press/Evening%20Standard%20press.pdf">
+            <a href="http://www.standard.co.uk/lifestyle/health/a-sun-salute-to-the-secret-yoga-club-8605744.html" target="_blank">
                 <img src="images/press/evening-standard-logo.jpg" alt="Evening Standard"/>
             </a>
         </div>
         <div class="col-sm-4">
-            <a href="images/press/Time%20out%20press.pdf">
+            <a href="http://now-here-this.timeout.com/2013/07/19/stretch-yourself-at-the-secret-yoga-supper-club/" target="_blank">
                 <img src="images/press/timeout-logo.jpg" alt="Time Out"/>
             </a>
         </div>
 
         <div class="col-sm-4">
-            <a href="images/press/Vogue%20Press.pdf">
+            <a href="http://www.vogue.co.uk/blogs/the-vogue-blog/2012/07/26/sweet-success" target="_blank">
                 <img src="images/press/vogue-logo.jpg" alt="Vogue"/>
             </a>
         </div>
         <div class="col-sm-4">
-            <a href="images/press/Elle%20press.pdf">
+            <a href="http://howtospendit.ft.com/health-grooming/44713-spa-junkie-at-secret-yoga-club" target="_blank">
+                <img src="images/press/ft.png" alt="The Financial Times Article"/>
+            </a>
+        </div>
+        <div class="col-sm-4 col-sm-offset-4">
+            <a href="http://instagram.com/p/kPp0V_Itq3/" target="_blank">
                 <img src="images/press/elle-logo.jpg" alt="Elle Press"/>
             </a>
         </div>
-
     </div>
 </div>
 
