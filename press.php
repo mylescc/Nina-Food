@@ -46,7 +46,7 @@
                 <img src="images/press/ft.png" alt="The Financial Times Article"/>
             </a>
         </div>
-        <div class="col-sm-4 col-sm-offset-4">
+        <div class="col-sm-4">
             <a href="http://instagram.com/p/kPp0V_Itq3/" target="_blank">
                 <img src="images/press/elle-logo.jpg" alt="Elle Press"/>
             </a>
