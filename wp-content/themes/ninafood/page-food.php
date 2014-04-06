@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html prefix="og: http://ogp.me/ns#">
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>NINA - Food</title>
-    <? include('head.php');?>
-    <meta property="og:url" content="http://www.ninafood.com/food.php"/>
-    <meta name="twitter:url" content="http://www.ninafood.com/food.php"/>
-    <link rel="stylesheet" href="styles/food.css"/>
-</head>
-<body>
-<? include('header.php');?>
-
+<? get_header();?>
 
 <div class="container">
     <div class="row">
@@ -76,6 +64,4 @@
 </div>
 
 
-<? include('footer.php');?>
-</body>
-</html>
+<? get_footer(); ?>

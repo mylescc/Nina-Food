@@ -1,32 +1,27 @@
 @import "standard"
 
-img.mussels
-  width: 100%
-
-  
-
 h2
   font-family: SplendidOrnamenty
   font-size: $h2
   color: white
 
-p.text-center
-  margin-top: 30px
-  color: white
-  a
-    color: white
-
 .parties-container
+  p
+    color: white
+    margin-top: 30px
+    a
+      color: white
   @media (max-width: $sm)
     margin: 0 15px
 
+
 #parties
-  background: url('/images/parties/parties.png') center no-repeat
+  background: url($dir + '/images/parties/parties.png') center no-repeat
   background-size: cover
   @media (max-width: $sm)
-    background: url('/images/parties/musselone.png') left no-repeat
+    background: url($dir + '/images/parties/musselone.png') left no-repeat
     background-size: cover
-#title
+#party-title
   display: table
   margin: 0 auto
   padding: 200px 0
@@ -36,6 +31,10 @@ p.text-center
     text-align: center
     margin: 0
   h1
+    font-family: NeutraText
+    color: white
+    font-size: 120px
+    text-transform: uppercase
     @media (max-width: $sm)
       font-size: 110px
 

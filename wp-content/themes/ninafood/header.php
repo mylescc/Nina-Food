@@ -67,10 +67,10 @@
                         </ul>
                     </li>
                     <li><a href="/press">press</a></li>
+                    <li><a href="/blog">blog</a> </li>
                     <li>
                         <a id="news" class="dropdown-toggle" data-toggle="dropdown">news</a>
-                        <ul id="news-sub" class="dropdown-menu">
-                            <li><a target="_blank" href="http://www.ninaicecream.com/">blog</a></li>
+                        <ul id="news-sub" class="dropdown-menu">s
                             <li><a  target="_blank" href="https://twitter.com/antoninaparker">twitter</a></li>
                             <li><a target="_blank" href=" https://www.facebook.com/afoodcompany">facebook</a></li>
                         </ul>
