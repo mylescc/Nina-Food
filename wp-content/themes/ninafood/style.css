@@ -458,31 +458,47 @@ nav ul li a:hover {
   text-decoration: none;
   padding-bottom: 10px;
 }
-/* line 12, sass/_blog.sass */
+@media (max-width: 768px) {
+  /* line 8, sass/_blog.sass */
+  #blog .article-thumbnail {
+    display: block;
+    width: 90%;
+    margin: 0 5% 20px;
+    border-bottom: 1px solid white;
+    padding: 0 0 10px;
+  }
+}
+/* line 19, sass/_blog.sass */
 #blog .article-thumbnail h3 {
   font-family: NeutraText;
   text-transform: uppercase;
 }
-/* line 15, sass/_blog.sass */
+/* line 22, sass/_blog.sass */
 #blog .article-thumbnail p {
   font-size: 14px;
 }
-/* line 18, sass/_blog.sass */
+/* line 24, sass/_blog.sass */
+#blog .article-thumbnail img {
+  display: table;
+  max-width: 100%;
+  margin: 0 auto;
+}
+/* line 28, sass/_blog.sass */
 #blog .article-thumbnail:hover {
   color: #e6e6e6;
 }
-/* line 20, sass/_blog.sass */
+/* line 30, sass/_blog.sass */
 #blog .article-thumbnail:hover p {
   color: #e6e6e6;
 }
 
-/* line 24, sass/_blog.sass */
+/* line 34, sass/_blog.sass */
 .blog-post img {
   max-width: 100%;
   display: table;
   margin: 0 auto;
 }
-/* line 28, sass/_blog.sass */
+/* line 38, sass/_blog.sass */
 .blog-post h3 {
   color: white;
   text-transform: uppercase;
@@ -490,7 +506,7 @@ nav ul li a:hover {
   font-size: 40px;
   margin: 20px 0 20px;
 }
-/* line 34, sass/_blog.sass */
+/* line 44, sass/_blog.sass */
 .blog-post p {
   font-size: 16px;
 }

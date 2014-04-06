@@ -3,7 +3,7 @@
 <html prefix="og: http://ogp.me/ns#">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title><?php wp_title( '|', true, 'right' ); ?></title>
+    <title><?php wp_title('|',true,'right'); ?> <?php bloginfo('name'); ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="description" content="NINA is a London based food company."/>
     <meta http-equiv="content-type" content="text/html;charset=UTF-8">
@@ -42,7 +42,7 @@
                 <li><a href="/van">Van</a></li>
                 <li><a href="/food">Food</a></li>
                 <li><a href="/press">press</a></li>
-                <li><a target="_blank" href="http://www.ninaicecream.com/">blog</a></li>
+                <li><a href="/blog">blog</a></li>
                 <li><a  target="_blank" href="https://twitter.com/antoninaparker">twitter</a></li>
                 <li><a target="_blank" href=" https://www.facebook.com/afoodcompany">facebook</a></li>
             </ul>
@@ -70,7 +70,7 @@
                     <li><a href="/blog">blog</a> </li>
                     <li>
                         <a id="news" class="dropdown-toggle" data-toggle="dropdown">news</a>
-                        <ul id="news-sub" class="dropdown-menu">s
+                        <ul id="news-sub" class="dropdown-menu">
                             <li><a  target="_blank" href="https://twitter.com/antoninaparker">twitter</a></li>
                             <li><a target="_blank" href=" https://www.facebook.com/afoodcompany">facebook</a></li>
                         </ul>

@@ -32,7 +32,7 @@
 
             endwhile; ?>
         </div>
-        <hr/>
+        <hr class="hidden-xs"/>
         <div class="row">
             <p>
             <span class="nav-previous pull-right"><?php next_posts_link( 'Older posts &rarr;' ); ?></span>
