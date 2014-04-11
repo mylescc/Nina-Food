@@ -47,6 +47,11 @@
             </a>
         </div>
         <div class="col-sm-4">
+            <a href="http://instagram.com/p/mVMzH8m4qB/" target="_blank">
+                <img src="images/press/stella_logo.jpg" alt="Stell Press"/>
+            </a>
+        </div>
+        <div class="col-sm-4">
             <a href="http://instagram.com/p/kPp0V_Itq3/" target="_blank">
                 <img src="images/press/elle-logo.jpg" alt="Elle Press"/>
             </a>
