@@ -1,24 +1,41 @@
 
 <!DOCTYPE html>
-<html prefix="og: http://ogp.me/ns#">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="https://www.facebook.com/2008/fbml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title><?php wp_title('|',true,'right'); ?> <?php bloginfo('name'); ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="description" content="NINA is a London based food company."/>
     <meta http-equiv="content-type" content="text/html;charset=UTF-8">
-    <!--    For Facebook-->
-    <meta property="og:title" content="NINA - A Food Company"/>
-    <meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/images/facebook/display-image.png"/>
-    <meta property="og:description" content="NINA is a London based food company."/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:site_name" content="NINA - A Food Company"/>
+
+
+    <!-- For Facebook -->
+    <?php if (have_posts()):while(have_posts()):the_post(); endwhile; endif;?>
+    <!-- the default values -->
+    <meta property="fb:app_id" content="624729740938041" />
+
+    <?php if (is_single()) { ?>
+        <!-- If page is an article -->
+        <meta property="og:url" content="<?php the_permalink() ?>"/>
+        <meta property="og:title" content="<?php single_post_title(''); ?>" />
+        <meta property="og:description" content="<?php echo strip_tags(get_the_excerpt($post->ID)); ?>" />
+        <meta property="og:type" content="article" />
+        <meta property="og:image" content="<?php if (function_exists('facebook_thumbnail')) {echo wp_get_attachment_thumb_url(get_post_thumbnail_id($post->ID)); }?>" />
+
+    <?php } else { ?>
+        <!-- If page is a page -->
+        <meta property="og:site_name" content="<?php wp_title('|',true,'right'); ?> <?php bloginfo('name'); ?>" />
+        <meta property="og:description" content="<?php bloginfo('description'); ?>" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/images/facebook/display-image.png" />
+    <?php } ?>
+
     <!--    For Twitter-->
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:creator" content="@antoninaparker"/>
     <meta name="twitter:site" content="@antoninaparker"/>
 
-    <meta property="og:url" content="<?php the_permalink() ?>"/>
+    
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/bootstrap.min.css"/>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css"/>
 

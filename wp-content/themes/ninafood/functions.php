@@ -4,6 +4,7 @@ add_image_size('blog_thumbnail', 360, 200,true);
 add_image_size('blog_header', 750, 400,true);
 add_image_size('home_blog_link',360,247,true);
 add_image_size('food_images_nina',600,0,false);
+add_image_size('facebook_thumbnail',470,246,true);
 function custom_excerpt_length() {
     return 20;
 }
@@ -82,7 +83,7 @@ function my_gallery_shortcode($attr) {
     $gallery_div = "<div class='row'>";
     $output = $gallery_div;
 
-    $i = 0;
+    $i = 1;
     foreach ( $attachments as $id => $attachment ) {
         $link = wp_get_attachment_image($id, 'food_images_nina', false, false);
 
@@ -94,7 +95,7 @@ function my_gallery_shortcode($attr) {
 
         $output .= "</div>";
 
-        if ($i % $columns == 1) {
+        if ($i % $columns == 0) {
             $output .= ".</div><div class='row'> ";
         }
         $i++;
