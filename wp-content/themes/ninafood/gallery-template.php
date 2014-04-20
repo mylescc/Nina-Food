@@ -6,11 +6,6 @@ Template Name: Gallery Template
 
 <?php get_header(); ?>
 <div class="container">
-    <div class="row">
-        <div class="col-sm-12">
-            <h2 class="centered"><?php the_title(); ?></h2>
-        </div>
-    </div>
 
 <?php if ( function_exists( 'pdfprnt_show_buttons_for_custom_post_type' ) ) echo pdfprnt_show_buttons_for_custom_post_type( 'post_type=gallery&orderby=post_date' ); ?>
 <?php
@@ -73,7 +68,6 @@ if ($second_query->have_posts()) : while ($second_query->have_posts()) : $second
     ?>
     <div class="col-sm-4">
         <a class="gallery-btn" href="<?php echo $permalink; echo basename( get_permalink( $post->ID ) ); ?>">
-            <h3><?php echo $post->post_title; ?></h3>
             <img src="<?php echo $image_attributes[0]; ?>" >
         </a>
     </div>

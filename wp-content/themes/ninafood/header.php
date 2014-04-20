@@ -9,7 +9,7 @@
     <meta http-equiv="content-type" content="text/html;charset=UTF-8">
     <!--    For Facebook-->
     <meta property="og:title" content="NINA - A Food Company"/>
-    <meta property="og:image" content="http://www.ninafood.com/images/facebook/display-image.png"/>
+    <meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/images/facebook/display-image.png"/>
     <meta property="og:description" content="NINA is a London based food company."/>
     <meta property="og:type" content="website"/>
     <meta property="og:site_name" content="NINA - A Food Company"/>
@@ -43,8 +43,9 @@
                 <li><a href="/food">Food</a></li>
                 <li><a href="/press">press</a></li>
                 <li><a href="/blog">blog</a></li>
-                <li><a  target="_blank" href="https://twitter.com/antoninaparker">twitter</a></li>
+                <li><a target="_blank" href="https://twitter.com/antoninaparker">twitter</a></li>
                 <li><a target="_blank" href=" https://www.facebook.com/afoodcompany">facebook</a></li>
+                <li><a target="_blank" href="https://www.youtube.com/user/ninaicecream24">youtube</a> </li>
             </ul>
         </div>
     </nav>
@@ -71,8 +72,9 @@
                     <li>
                         <a id="news" class="dropdown-toggle" data-toggle="dropdown">news</a>
                         <ul id="news-sub" class="dropdown-menu">
-                            <li><a  target="_blank" href="https://twitter.com/antoninaparker">twitter</a></li>
+                            <li><a target="_blank" href="https://twitter.com/antoninaparker">twitter</a></li>
                             <li><a target="_blank" href=" https://www.facebook.com/afoodcompany">facebook</a></li>
+                            <li><a target="_blank" href="https://www.youtube.com/user/ninaicecream24">youtube</a></li>
                         </ul>
                     </li>
                 </ul>

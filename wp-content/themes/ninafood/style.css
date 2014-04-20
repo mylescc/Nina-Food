@@ -559,6 +559,30 @@ nav ul li a:hover {
   text-decoration: none;
 }
 
+/* line 2, sass/_food.sass */
+.food-gallery img, .food-gallery p {
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+  height: auto;
+}
+/* line 7, sass/_food.sass */
+.food-gallery p {
+  padding-top: 5px;
+  text-transform: uppercase;
+}
+
+/* line 2, sass/_press.sass */
+.press-gallery a {
+  width: 90%;
+  padding: 0 5%;
+}
+/* line 5, sass/_press.sass */
+.press-gallery a img {
+  width: 100%;
+  display: block;
+}
+
 @font-face {
   font-family: "SplendidOrnamenty";
   src: url("/wp-content/themes/ninafood/fonts/splendidornamenty.ttf");
