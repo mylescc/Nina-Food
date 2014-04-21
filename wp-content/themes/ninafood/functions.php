@@ -4,7 +4,7 @@ add_image_size('blog_thumbnail', 360, 200,true);
 add_image_size('blog_header', 750, 400,true);
 add_image_size('home_blog_link',360,247,true);
 add_image_size('food_images_nina',600,0,false);
-add_image_size('facebook_thumbnail',470,246,true);
+add_image_size('facebook_thumbnail',1200,630,true);
 function custom_excerpt_length() {
     return 20;
 }

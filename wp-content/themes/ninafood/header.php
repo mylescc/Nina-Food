@@ -20,8 +20,8 @@
         <meta property="og:title" content="<?php single_post_title(''); ?>" />
         <meta property="og:description" content="<?php echo strip_tags(get_the_excerpt($post->ID)); ?>" />
         <meta property="og:type" content="article" />
-        <meta property="og:image" content="<?php if (function_exists('facebook_thumbnail')) {echo wp_get_attachment_thumb_url(get_post_thumbnail_id($post->ID)); }?>" />
-
+        <? $image = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'facebook_thumbnail', false );?>
+        <meta property="og:image" content="<?php echo $image[0]; ?>" />
     <?php } else { ?>
         <!-- If page is a page -->
         <meta property="og:site_name" content="<?php wp_title('|',true,'right'); ?> <?php bloginfo('name'); ?>" />
@@ -35,13 +35,15 @@
     <meta name="twitter:creator" content="@antoninaparker"/>
     <meta name="twitter:site" content="@antoninaparker"/>
 
-    
+
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/bootstrap.min.css"/>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css"/>
 
     <?php wp_head(); ?>
 </head>
 <body>
+
+
 <div class=" visible-xs">
     <nav class="navbar">
         <div class="navbar-header">

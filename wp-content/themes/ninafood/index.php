@@ -10,8 +10,8 @@
         <div class="row">
             <div class="col-sm-12">
                 <p>
-                <span class="nav-previous pull-right"><?php next_posts_link( 'Older posts &rarr;' ); ?></span>
-                <span class="nav-next pull-left"><?php previous_posts_link( '&larr; Newer posts' ); ?></span>
+                    <span class="nav-previous pull-right"><?php next_posts_link( 'Older posts &rarr;' ); ?></span>
+                    <span class="nav-next pull-left"><?php previous_posts_link( '&larr; Newer posts' ); ?></span>
                 </p>
             </div>
         </div>
@@ -23,20 +23,25 @@
 
         if ($counter == 1){?>
         <div class="row">
-            <? } else if ($counter%4 == 0){?>
-        </div>
-        <div class="row">
-            <?}
-            $counter = $counter + 1;
+            <? }
             get_template_part( 'content', get_post_format() );
 
-            endwhile; ?>
+            if ($counter %3 == 0) {?>
+        </div>
+        <div class="row">
+            <?
+            };
+            $counter++;
+
+            endwhile;           ?>
+
+
         </div>
         <hr class="hidden-xs"/>
         <div class="row">
             <p>
-            <span class="nav-previous pull-right"><?php next_posts_link( 'Older posts &rarr;' ); ?></span>
-            <span class="nav-next pull-left"><?php previous_posts_link( '&larr; Newer posts' ); ?></span>
+                <span class="nav-previous pull-right"><?php next_posts_link( 'Older posts &rarr;' ); ?></span>
+                <span class="nav-next pull-left"><?php previous_posts_link( '&larr; Newer posts' ); ?></span>
             </p>
         </div>
     </div>

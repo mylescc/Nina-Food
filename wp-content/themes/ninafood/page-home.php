@@ -10,8 +10,8 @@
     <meta name="google-site-verification" content="NvJqimuzPMW7RJio7XeBnOMZpR73w8aZq_FZTlnTPy8" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/bootstrap.min.css"/>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css"/>
-    <link rel="stylesheet" href="styles/main.css"/>
-    <link rel="stylesheet" href="styles/home.css"/>
+<!--    <link rel="stylesheet" href="styles/main.css"/>-->
+<!--    <link rel="stylesheet" href="styles/home.css"/>-->
     <!--    For Facebook-->
     <meta property="og:title" content="NINA - A Food Company"/>
     <meta property="og:image" content="http://www.ninafood.com/images/facebook/display-image.png"/>
@@ -53,17 +53,19 @@
             <li class="visible-xs"><a class="home-nav" href="/van">Van</a></li>
             <li class="visible-xs"><a class="home-nav" href="/food">Food</a></li>
             <li><a class="home-nav" href="/press">press</a></li>
+            <li><a class="home-nav" href="/blog">blog</a></li>
             <li class="hidden-xs">
                 <a id="news" class="dropdown-toggle home-nav" data-toggle="dropdown">news</a>
                 <ul id="news-sub" class="dropdown-menu">
-                    <li><a class="home-nav" target="_blank" href="http://www.ninaicecream.com/">blog</a></li>
+
                     <li><a class="home-nav" target="_blank" href="https://twitter.com/antoninaparker">twitter</a></li>
                     <li><a class="home-nav" target="_blank" href=" https://www.facebook.com/afoodcompany">facebook</a></li>
+                    <li><a class="home-nav" target="_blank" href="https://www.youtube.com/user/ninaicecream24">youtube</a></li>
                 </ul>
             </li>
-            <li class="visible-xs"><a class="home-nav" target="_blank" href="http://www.ninaicecream.com/">blog</a></li>
             <li class="visible-xs"><a class="home-nav" target="_blank" href="https://twitter.com/antoninaparker">twitter</a></li>
             <li class="visible-xs"><a class="home-nav" target="_blank" href=" https://www.facebook.com/afoodcompany">facebook</a></li>
+            <li class="visible-xs"><a class="home-nav" target="_blank" href="https://www.youtube.com/user/ninaicecream24">youtube</a></li>
         </ul>
     </nav>
 </div>

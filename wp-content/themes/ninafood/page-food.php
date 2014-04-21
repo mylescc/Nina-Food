@@ -16,6 +16,8 @@
     <!--            <p>Salted Caramel</p>-->
     <!--        </div>-->
     <!--    </div>-->
+
+
     <!--    <div class="row">-->
     <!--        <div class="col-sm-6">-->
     <!--            <img src="images/food/carrot.jpg" alt="Carrot Cake"/>-->
@@ -26,6 +28,8 @@
     <!--            <p>PÃŠCHE MELBA WITH PEACH SORBET, RASPBERRY COULIS AND PEACHES POACHED IN LAVENDER PROSECCO</p>-->
     <!--        </div>-->
     <!--    </div>-->
+
+
     <!--    <div class="row">-->
     <!--        <div class="col-sm-6">-->
     <!--            <img src="images/food/polentaCake.jpg" alt="Polenta Cake"/>-->
@@ -36,6 +40,8 @@
     <!--            <p>SALTED CARAMEL ON HOMEMADE BRIOCHE</p>-->
     <!--        </div>-->
     <!--    </div>-->
+
+
     <!--    <div class="row">-->
     <!--        <div class="col-sm-6">-->
     <!--            <img src="images/food/vanilla%20before.jpg" alt="Vanilla Ice Cream"/>-->
@@ -46,6 +52,8 @@
     <!--            <p>WITH VALRHONA CHOCOLATE SAUCE</p>-->
     <!--        </div>-->
     <!--    </div>-->
+
+
     <!--    <div class="row">-->
     <!--        <div class="col-sm-6">-->
     <!--            <img src="images/food/tart%20tropezienne%20food.jpg" alt="Tart Tropezienne"/>-->
