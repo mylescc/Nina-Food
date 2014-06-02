@@ -19,7 +19,13 @@ body, html {
   background: #c9c3ba;
 }
 
-/* line 37, sass/style.sass */
+/* line 35, sass/style.sass */
+h3 {
+  color: white;
+  font-family: NeutraText;
+}
+
+/* line 39, sass/style.sass */
 a.nina {
   display: block;
   margin: 20px 0 0;
@@ -32,12 +38,12 @@ a.nina {
   text-decoration: none;
 }
 
-/* line 49, sass/style.sass */
+/* line 51, sass/style.sass */
 .navbar {
   margin-bottom: 20px;
 }
 
-/* line 51, sass/style.sass */
+/* line 53, sass/style.sass */
 nav {
   position: absolute;
   color: white;
@@ -46,7 +52,7 @@ nav {
   width: 100%;
   z-index: 500;
 }
-/* line 58, sass/style.sass */
+/* line 60, sass/style.sass */
 nav ul {
   display: block;
   width: 100%;
@@ -56,7 +62,7 @@ nav ul {
   list-style: none;
   text-align: center;
 }
-/* line 66, sass/style.sass */
+/* line 68, sass/style.sass */
 nav ul li {
   font-size: 20px;
   padding: 0 49px;
@@ -66,28 +72,28 @@ nav ul li {
   cursor: pointer;
 }
 @media (max-width: 1200px) {
-  /* line 66, sass/style.sass */
+  /* line 68, sass/style.sass */
   nav ul li {
     padding: 0 35px;
   }
 }
 @media (max-width: 992px) {
-  /* line 66, sass/style.sass */
+  /* line 68, sass/style.sass */
   nav ul li {
     padding: 0 16px;
   }
 }
-/* line 77, sass/style.sass */
+/* line 79, sass/style.sass */
 nav ul li a {
   padding: 0 !important;
   color: white;
   text-decoration: none;
 }
-/* line 81, sass/style.sass */
+/* line 83, sass/style.sass */
 nav ul li a.home-nav {
   text-shadow: 1px 1px #615a58;
 }
-/* line 83, sass/style.sass */
+/* line 85, sass/style.sass */
 nav ul li a:hover {
   color: white;
   text-decoration: none;
@@ -95,72 +101,72 @@ nav ul li a:hover {
   background-color: transparent !important;
 }
 
-/* line 88, sass/style.sass */
+/* line 90, sass/style.sass */
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
   background-color: #c9c3ba;
 }
 
-/* line 90, sass/style.sass */
+/* line 92, sass/style.sass */
 .dropdown-menu {
   background-color: #c9c3ba;
   border: none;
   box-shadow: none;
 }
-/* line 94, sass/style.sass */
+/* line 96, sass/style.sass */
 .dropdown-menu li {
   display: block;
   text-align: center;
   padding: 10px 0;
 }
-/* line 98, sass/style.sass */
+/* line 100, sass/style.sass */
 .dropdown-menu li a {
   color: white;
 }
-/* line 100, sass/style.sass */
+/* line 102, sass/style.sass */
 .dropdown-menu li a:hover {
   color: white;
 }
 
-/* line 104, sass/style.sass */
+/* line 106, sass/style.sass */
 .icon-bar {
   background-color: white;
   border-radius: 1px;
 }
 
-/* line 110, sass/style.sass */
+/* line 112, sass/style.sass */
 p {
   font-family: NeutraText;
   font-size: 1.2em;
   color: white;
   text-transform: uppercase;
 }
-/* line 115, sass/style.sass */
+/* line 117, sass/style.sass */
 p a {
   color: white;
 }
-/* line 117, sass/style.sass */
+/* line 119, sass/style.sass */
 p a:hover {
   color: white;
 }
 
-/* line 122, sass/style.sass */
+/* line 124, sass/style.sass */
 .myles-link {
   color: #b3aa9d;
   font-family: NeutraText;
   text-transform: uppercase;
   font-size: 12px;
 }
-/* line 127, sass/style.sass */
+/* line 129, sass/style.sass */
 .myles-link:hover {
   color: #9c9181;
 }
 
-/* line 130, sass/style.sass */
+/* line 132, sass/style.sass */
 .spacer {
   height: 50px;
 }
 
-/* line 134, sass/style.sass */
+/* line 136, sass/style.sass */
 .wp-post-image {
   height: auto;
   max-width: 100%;
