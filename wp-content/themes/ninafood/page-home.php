@@ -23,7 +23,6 @@
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:creator" content="@antoninaparker"/>
     <meta name="twitter:site" content="@antoninaparker"/>
-
 </head>
 
 <body id="home">
@@ -31,6 +30,10 @@
     <div id="image-1" class="item active"></div>
     <div id="image-2" class="item hidden-xs"></div>
     <div id="image-4" class="item hidden-xs"></div>
+    <div id="image-5" class="item hidden-xs"></div>
+    <div id="image-6" class="item hidden-xs"></div>
+    <div id="image-7" class="item hidden-xs"></div>
+    <div id="image-8" class="item hidden-xs"></div>
 </div>
 
 <div id="central-text">
@@ -50,6 +53,7 @@
                     <li><a  class="home-nav" href="/food">Food</a></li>
                 </ul>
             </li>
+            <li><a class="home-nav" href="/super-nina">super Nina</a></li>
             <li class="visible-xs"><a class="home-nav" href="/van">Van</a></li>
             <li class="visible-xs"><a class="home-nav" href="/food">Food</a></li>
             <li><a class="home-nav" href="/press">press</a></li>

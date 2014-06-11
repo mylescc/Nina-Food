@@ -65,7 +65,7 @@ nav ul {
 /* line 68, sass/style.sass */
 nav ul li {
   font-size: 20px;
-  padding: 0 49px;
+  padding: 0 34px;
   text-align: inherit;
   text-transform: uppercase;
   display: inline-block;
@@ -231,13 +231,53 @@ p a:hover {
   }
 }
 /* line 34, sass/_home.sass */
+#home #image-5 {
+  background: url("/wp-content/themes/ninafood/images/home/5.jpg") no-repeat center;
+}
+@media (max-width: 768px) {
+  /* line 34, sass/_home.sass */
+  #home #image-5 {
+    background: none;
+  }
+}
+/* line 38, sass/_home.sass */
+#home #image-6 {
+  background: url("/wp-content/themes/ninafood/images/home/6.jpg") no-repeat center;
+}
+@media (max-width: 768px) {
+  /* line 38, sass/_home.sass */
+  #home #image-6 {
+    background: none;
+  }
+}
+/* line 42, sass/_home.sass */
+#home #image-7 {
+  background: url("/wp-content/themes/ninafood/images/home/7.jpg") no-repeat center;
+}
+@media (max-width: 768px) {
+  /* line 42, sass/_home.sass */
+  #home #image-7 {
+    background: none;
+  }
+}
+/* line 46, sass/_home.sass */
+#home #image-8 {
+  background: url("/wp-content/themes/ninafood/images/home/8.jpg") no-repeat center;
+}
+@media (max-width: 768px) {
+  /* line 46, sass/_home.sass */
+  #home #image-8 {
+    background: none;
+  }
+}
+/* line 50, sass/_home.sass */
 #home #central-text {
   position: absolute;
   width: 100%;
   text-align: center;
   z-index: 500;
 }
-/* line 39, sass/_home.sass */
+/* line 55, sass/_home.sass */
 #home #central-text h1 {
   width: 100%;
   font-size: 13em;
@@ -250,7 +290,7 @@ p a:hover {
   padding: 0;
   text-transform: uppercase;
 }
-/* line 50, sass/_home.sass */
+/* line 66, sass/_home.sass */
 #home #central-text h2 {
   width: 100%;
   font-size: 90px;
@@ -263,48 +303,48 @@ p a:hover {
   padding: 0;
 }
 @media (max-width: 768px) {
-  /* line 34, sass/_home.sass */
+  /* line 50, sass/_home.sass */
   #home #central-text {
     position: relative;
   }
-  /* line 62, sass/_home.sass */
+  /* line 78, sass/_home.sass */
   #home #central-text h1 {
     font-size: 116px;
     padding-top: 50px;
   }
-  /* line 65, sass/_home.sass */
+  /* line 81, sass/_home.sass */
   #home #central-text h2 {
     font-size: 44px;
   }
 }
-/* line 67, sass/_home.sass */
+/* line 83, sass/_home.sass */
 #home .dropdown-menu {
   background-color: transparent;
   text-align: center;
   border: none;
   box-shadow: none;
 }
-/* line 72, sass/_home.sass */
+/* line 88, sass/_home.sass */
 #home .dropdown-menu li {
   display: block;
   text-align: center;
   padding: 0 0;
   margin: 0;
 }
-/* line 77, sass/_home.sass */
+/* line 93, sass/_home.sass */
 #home .dropdown-menu li a {
   color: white;
 }
-/* line 79, sass/_home.sass */
+/* line 95, sass/_home.sass */
 #home .dropdown-menu li a:hover {
   color: white;
 }
-/* line 81, sass/_home.sass */
+/* line 97, sass/_home.sass */
 #home .nav .open > a, #home .nav .open > a:hover, #home .nav .open > a:focus {
   background-color: transparent;
 }
 @media (max-width: 768px) {
-  /* line 86, sass/_home.sass */
+  /* line 102, sass/_home.sass */
   #home .navbar-nav li {
     padding: 10px 0;
   }
@@ -377,24 +417,24 @@ h2 {
   }
 }
 
-/* line 24, sass/_parties.sass */
+/* line 25, sass/_parties.sass */
 #party-title {
   display: table;
   margin: 0 auto;
   padding: 200px 0;
 }
 @media (max-width: 768px) {
-  /* line 24, sass/_parties.sass */
+  /* line 25, sass/_parties.sass */
   #party-title {
     padding: 100px 0;
   }
 }
-/* line 30, sass/_parties.sass */
+/* line 31, sass/_parties.sass */
 #party-title h1, #party-title h2 {
   text-align: center;
   margin: 0;
 }
-/* line 33, sass/_parties.sass */
+/* line 34, sass/_parties.sass */
 #party-title h1 {
   font-family: NeutraText;
   color: white;
@@ -402,15 +442,25 @@ h2 {
   text-transform: uppercase;
 }
 @media (max-width: 768px) {
-  /* line 33, sass/_parties.sass */
+  /* line 34, sass/_parties.sass */
   #party-title h1 {
     font-size: 110px;
   }
 }
+/* line 41, sass/_parties.sass */
+#party-title h2.smaller {
+  font-size: 3em;
+}
 
-/* line 42, sass/_parties.sass */
+/* line 44, sass/_parties.sass */
 #details p {
   margin: 0;
+}
+
+/* line 47, sass/_parties.sass */
+#super-nina {
+  background: url("/wp-content/themes/ninafood/images/super-nina/order_suggestion.jpg") center no-repeat;
+  background-size: cover;
 }
 
 /* line 4, sass/_standard.sass */

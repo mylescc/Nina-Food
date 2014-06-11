@@ -60,6 +60,7 @@
                 <li><a href="/parties">parties</a></li>
                 <li><a href="/van">Van</a></li>
                 <li><a href="/food">Food</a></li>
+                <li><a href="/super-nina">super Nina</a></li>
                 <li><a href="/press">press</a></li>
                 <li><a href="/blog">blog</a></li>
                 <li><a target="_blank" href="https://twitter.com/antoninaparker">twitter</a></li>
@@ -86,6 +87,7 @@
                             <li><a href="/food">Food</a></li>
                         </ul>
                     </li>
+                    <li><a href="/super-nina">super Nina</a></li>
                     <li><a href="/press">press</a></li>
                     <li><a href="/blog">blog</a> </li>
                     <li>
