@@ -65,11 +65,13 @@
                     <li><a class="home-nav" target="_blank" href="https://twitter.com/antoninaparker">twitter</a></li>
                     <li><a class="home-nav" target="_blank" href=" https://www.facebook.com/afoodcompany">facebook</a></li>
                     <li><a class="home-nav" target="_blank" href="https://www.youtube.com/user/ninaicecream24">youtube</a></li>
+                    <li><a class="home-nav" target="_blank" href="http://instagram.com/antoninaparker">instagram</a></li>
                 </ul>
             </li>
             <li class="visible-xs"><a class="home-nav" target="_blank" href="https://twitter.com/antoninaparker">twitter</a></li>
             <li class="visible-xs"><a class="home-nav" target="_blank" href=" https://www.facebook.com/afoodcompany">facebook</a></li>
             <li class="visible-xs"><a class="home-nav" target="_blank" href="https://www.youtube.com/user/ninaicecream24">youtube</a></li>
+            <li class="visible-xs"><a class="home-nav" target="_blank" href="http://instagram.com/antoninaparker">instagram</a></li>
         </ul>
     </nav>
 </div>

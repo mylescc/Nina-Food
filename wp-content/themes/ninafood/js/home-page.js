@@ -46,7 +46,7 @@ $(document).ready(function(){
     var width = $(window).width();
     console.log(width);
     if (width > 768){
-        setInterval('cycleImages()', 7000);
+       window.setTimeout('startCycle()',10000)
     } else{
         if (mobileSafari == 'Safari') {
             var x = $('#image').height();
@@ -59,6 +59,10 @@ $(document).ready(function(){
 
 
 })
+
+function startCycle(){
+    setInterval('cycleImages()', 7000);
+}
 function cycleImages(){
     var $active = $('#image .active');
     var $next = ($active.next().length > 0) ? $active.next() : $('#image div:first');

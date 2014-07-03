@@ -66,6 +66,7 @@
                 <li><a target="_blank" href="https://twitter.com/antoninaparker">twitter</a></li>
                 <li><a target="_blank" href=" https://www.facebook.com/afoodcompany">facebook</a></li>
                 <li><a target="_blank" href="https://www.youtube.com/user/ninaicecream24">youtube</a> </li>
+                <li><a target="_blank" href="http://instagram.com/antoninaparker">instagram</a></li>
             </ul>
         </div>
     </nav>
@@ -96,6 +97,7 @@
                             <li><a target="_blank" href="https://twitter.com/antoninaparker">twitter</a></li>
                             <li><a target="_blank" href=" https://www.facebook.com/afoodcompany">facebook</a></li>
                             <li><a target="_blank" href="https://www.youtube.com/user/ninaicecream24">youtube</a></li>
+                            <li><a target="_blank" href="http://instagram.com/antoninaparker">instagram</a></li>
                         </ul>
                     </li>
                 </ul>

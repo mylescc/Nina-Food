@@ -201,12 +201,12 @@ p a:hover {
 }
 /* line 21, sass/_home.sass */
 #home #image-1 {
-  background: url("/wp-content/themes/ninafood/images/home/linguine.png") no-repeat center;
+  background: url("/wp-content/themes/ninafood/images/home/linguine.jpg") no-repeat center;
 }
 @media (max-width: 768px) {
   /* line 21, sass/_home.sass */
   #home #image-1 {
-    background: url("/wp-content/themes/ninafood/images/home/mobile-linguine.png") no-repeat center;
+    background: url("/wp-content/themes/ninafood/images/home/mobile-linguine.jpg") no-repeat center;
     background-size: contain;
   }
 }
@@ -500,7 +500,11 @@ nav ul li a:hover {
   padding-bottom: 30px;
 }
 
-/* line 2, sass/_blog.sass */
+/* line 1, sass/_blog.sass */
+#blog {
+  color: white;
+}
+/* line 3, sass/_blog.sass */
 #blog h1 {
   color: white;
   font-family: NeutraText;
@@ -508,14 +512,14 @@ nav ul li a:hover {
   font-size: 60px;
   margin: 0 0 30px;
 }
-/* line 8, sass/_blog.sass */
+/* line 9, sass/_blog.sass */
 #blog .article-thumbnail {
   color: white;
   text-decoration: none;
   padding-bottom: 10px;
 }
 @media (max-width: 768px) {
-  /* line 8, sass/_blog.sass */
+  /* line 9, sass/_blog.sass */
   #blog .article-thumbnail {
     display: block;
     width: 90%;
@@ -524,37 +528,43 @@ nav ul li a:hover {
     padding: 0 0 10px;
   }
 }
-/* line 19, sass/_blog.sass */
+/* line 20, sass/_blog.sass */
 #blog .article-thumbnail h3 {
   font-family: NeutraText;
   text-transform: uppercase;
 }
-/* line 22, sass/_blog.sass */
+/* line 23, sass/_blog.sass */
 #blog .article-thumbnail p {
+  color: white;
   font-size: 14px;
 }
-/* line 24, sass/_blog.sass */
+/* line 26, sass/_blog.sass */
 #blog .article-thumbnail img {
   display: table;
   max-width: 100%;
   margin: 0 auto;
 }
-/* line 28, sass/_blog.sass */
+/* line 30, sass/_blog.sass */
 #blog .article-thumbnail:hover {
   color: #e6e6e6;
 }
-/* line 30, sass/_blog.sass */
+/* line 32, sass/_blog.sass */
 #blog .article-thumbnail:hover p {
   color: #e6e6e6;
 }
 
-/* line 34, sass/_blog.sass */
+/* line 35, sass/_blog.sass */
+.blog-post {
+  color: white;
+  font-family: NeutraText;
+}
+/* line 38, sass/_blog.sass */
 .blog-post img {
   max-width: 100%;
   display: table;
   margin: 0 auto;
 }
-/* line 38, sass/_blog.sass */
+/* line 42, sass/_blog.sass */
 .blog-post h3 {
   color: white;
   text-transform: uppercase;
@@ -562,8 +572,10 @@ nav ul li a:hover {
   font-size: 40px;
   margin: 20px 0 20px;
 }
-/* line 44, sass/_blog.sass */
-.blog-post p {
+/* line 48, sass/_blog.sass */
+.blog-post p, .blog-post a {
+  font-family: NeutraText;
+  color: white;
   font-size: 16px;
 }
 
