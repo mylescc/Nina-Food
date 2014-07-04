@@ -5,8 +5,8 @@
             <div class="col-sm-12">
                 <div id="super-nina">
                     <div id="party-title">
-                        <h1>Super nina</h1>
-                        <h2 >Gluten-free, Vegetarian, Vegan<br/>, Dairy-free, Sugar-free</h2>
+                        <h1 class="supernina">Super nina</h1>
+                        <h2 class="supernina">Gluten-free, Vegetarian, Vegan,<br/> Dairy-free, Sugar-free</h2>
                     </div>
                     <div id="details">
                         <?php while (have_posts()) : the_post();

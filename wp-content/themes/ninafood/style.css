@@ -429,12 +429,16 @@ h2 {
     padding: 100px 0;
   }
 }
-/* line 31, sass/_parties.sass */
+/* line 32, sass/_parties.sass */
 #party-title h1, #party-title h2 {
   text-align: center;
   margin: 0;
 }
-/* line 34, sass/_parties.sass */
+/* line 35, sass/_parties.sass */
+#party-title h1.supernina, #party-title h2.supernina {
+  text-shadow: 1px 1px #615a58;
+}
+/* line 37, sass/_parties.sass */
 #party-title h1 {
   font-family: NeutraText;
   color: white;
@@ -442,22 +446,22 @@ h2 {
   text-transform: uppercase;
 }
 @media (max-width: 768px) {
-  /* line 34, sass/_parties.sass */
+  /* line 37, sass/_parties.sass */
   #party-title h1 {
     font-size: 110px;
   }
 }
-/* line 41, sass/_parties.sass */
+/* line 44, sass/_parties.sass */
 #party-title h2.smaller {
   font-size: 3em;
 }
 
-/* line 44, sass/_parties.sass */
+/* line 47, sass/_parties.sass */
 #details p {
   margin: 0;
 }
 
-/* line 47, sass/_parties.sass */
+/* line 50, sass/_parties.sass */
 #super-nina {
   background: url("/wp-content/themes/ninafood/images/super-nina/order_suggestion.jpg") center no-repeat;
   background-size: cover;
