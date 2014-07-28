@@ -1413,7 +1413,11 @@ if ( ! function_exists ( 'gllr_shortcode' ) ) {
                 while ( $second_query->have_posts() ) :
                     global $post;
                     $second_query->the_post(); ?>
-                    <!-- <div class="gallery_box_single">  By Myles -->
+
+
+<!--                    <div class="container press-gallery"> <!-- Find it here -->
+
+
                     <?php the_content();
                     $posts = get_posts( array(
                         "showposts"			=> -1,
@@ -1436,60 +1440,28 @@ if ( ! function_exists ( 'gllr_shortcode' ) ) {
                             $image_attributes_full = wp_get_attachment_image_src( $attachment->ID, 'full' );
 
                             if( $count_image_block % 3 == 1 ) { ?>
-                                <div class="row">
+                            <div class="row">
                             <?php } ?>
                             <?php $url = get_post_meta( $attachment->ID, $link_key, true ) ?>
-                            <div class="col-sm-4">
-                                <a  href="<? echo get_post_meta( $attachment->ID, $link_key, true );?>" title="<?php echo get_post_meta( $attachment->ID, $key, true ); ?>" target="_blank">
-                                    <img  style="width: 100%;height:auto;" alt="" title="<?php echo get_post_meta( $attachment->ID, $key, true ); ?>" src="<?php echo $image_attributes[0]; ?>" rel="<?php echo $image_attributes_full[0]; ?>" />
-                                </a>
-
-                            </div>
-                            <?php if( $count_image_block %3 == 0 ) { ?>
+                                <div class="col-sm-4">
+                                    <a  href="<? echo get_post_meta( $attachment->ID, $link_key, true );?>" title="<?php echo get_post_meta( $attachment->ID, $key, true ); ?>" target="_blank">
+                                        <img  style="width: 100%;height:auto;" alt="" title="<?php echo get_post_meta( $attachment->ID, $key, true ); ?>" src="<?php echo $image_attributes[0]; ?>" rel="<?php echo $image_attributes_full[0]; ?>" />
+                                    </a>
                                 </div>
+                            <?php if( $count_image_block %3 == 0 ) { ?>
+                            </div>
                             <?php }
 
 
                             $count_image_block++;
                         }
                     } ?>
-                    </div>
+<!--                    </div>-->
                     <div class="clear"></div>
                 <?php endwhile;
             else: ?>
-                <div class="gallery_box_single">
-                    <p class="not_found"><?php _e( 'Sorry, nothing found.', 'gallery' ); ?></p>
-                </div>
+
             <?php endif; ?>
-            <?php if( 1 == $gllr_options['return_link_shortcode'] ) {
-                if( 'gallery_template_url' == $gllr_options["return_link_page"] ){
-                    global $wpdb;
-                    $parent = $wpdb->get_var( "SELECT $wpdb->posts.ID FROM $wpdb->posts, $wpdb->postmeta WHERE meta_key = '_wp_page_template' AND meta_value = 'gallery-template.php' AND (post_status = 'publish' OR post_status = 'private') AND $wpdb->posts.ID = $wpdb->postmeta.post_id" ); ?>
-                    <div class="return_link"><a href="<?php echo ( !empty( $parent ) ? get_permalink( $parent ) : '' ); ?>"><?php echo $gllr_options['return_link_text']; ?></a></div>
-                <?php } else { ?>
-                    <div class="return_link"><a href="<?php echo $gllr_options["return_link_url"]; ?>"><?php echo $gllr_options['return_link_text']; ?></a></div>
-                <?php }
-            } ?>
-            <script type="text/javascript">
-                (function($){
-                    $(document).ready(function(){
-                        $("a[rel=gallery_fancybox]").fancybox({
-                            'transitionIn'		: 'elastic',
-                            'transitionOut'		: 'elastic',
-                            'titlePosition' 	: 'inside',
-                            'speedIn'					:	500,
-                            'speedOut'				:	300,
-                            'titleFormat'			: function(title, currentArray, currentIndex, currentOpts) {
-                                return '<span id="fancybox-title-inside">' + (title.length ? title + '<br />' : '') + 'Image ' + (currentIndex + 1) + ' / ' + currentArray.length + '</span><?php if( get_post_meta( $post->ID, 'gllr_download_link', true ) != '' ){?><br /><a href="'+$(currentOpts.orig).attr('rel')+'" target="_blank"><?php echo __('Download high resolution image', 'gallery'); ?> </a><?php } ?>';
-                            }<?php if( $gllr_options['start_slideshow'] == 1 ) { ?>,
-                            'onComplete':	function() {
-                                clearTimeout(jQuery.fancybox.slider);
-                                jQuery.fancybox.slider=setTimeout("jQuery.fancybox.next()",<?php echo empty( $gllr_options['slideshow_interval'] )? 2000 : $gllr_options['slideshow_interval'] ; ?>);
-                            }<?php } ?>
-                        });
-                    });
-                })(jQuery);
-            </script>
         <?php }
         $gllr_output = ob_get_clean();
         wp_reset_query();

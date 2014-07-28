@@ -1,0 +1,48 @@
+.comment-list
+  color: white
+  list-style: none
+  ol.children
+    list-style: none
+  .comment
+
+    padding: 5px
+    margin-bottom: 10px
+    .comment-author
+      padding-bottom: 1px
+      img
+        display: none
+      cite, span
+        font-family: NeutraText
+        text-transform: uppercase
+    .comment-meta
+      border-bottom: 1px solid white
+      padding-bottom: 3px
+      margin-bottom: 10px
+      a
+        color: white
+        font-family: NeutraText
+  .comment-reply-link
+    color: white
+    font-family: NeutraText
+.form-allowed-tags
+  display: none
+
+.comment-respond
+  padding: 20px 45px
+  .logged-in-as
+    font-size: 13px
+  .comment-form-comment
+    label
+      display: block
+.form-submit
+  input#submit
+    background: white
+    display: block
+    color: white
+    background: $background
+    border: 1px solid white
+    padding: 7px 10px 5px
+    font-family: NeutraText
+    &:hover
+      box-shadow: 1px 5px 5px darken($background,10%)
+

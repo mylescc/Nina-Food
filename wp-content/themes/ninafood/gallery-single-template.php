@@ -38,7 +38,7 @@
                     <?php } ?>
                     <?php $url = get_post_meta( $attachment->ID, $link_key, true ) ?>
                     <div class="col-sm-4">
-        <p><? echo $url ?> + tests</p>
+                        <p>Hello why isn't this showing</p>
                         <a  href="<?php echo $image_attributes_large[0]; ?>" title="<?php echo get_post_meta( $attachment->ID, $key, true ); ?>" target="_blank">
                             <img  style="width: 100%;height:auto;" alt="" title="<?php echo get_post_meta( $attachment->ID, $key, true ); ?>" src="<?php echo $image_attributes[0]; ?>" rel="<?php echo $image_attributes_full[0]; ?>" />
                         </a>

@@ -660,6 +660,83 @@ nav ul li a:hover {
   display: block;
 }
 
+/* line 1, sass/_comments.sass */
+.comment-list {
+  color: white;
+  list-style: none;
+}
+/* line 4, sass/_comments.sass */
+.comment-list ol.children {
+  list-style: none;
+}
+/* line 6, sass/_comments.sass */
+.comment-list .comment {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+/* line 10, sass/_comments.sass */
+.comment-list .comment .comment-author {
+  padding-bottom: 1px;
+}
+/* line 12, sass/_comments.sass */
+.comment-list .comment .comment-author img {
+  display: none;
+}
+/* line 14, sass/_comments.sass */
+.comment-list .comment .comment-author cite, .comment-list .comment .comment-author span {
+  font-family: NeutraText;
+  text-transform: uppercase;
+}
+/* line 17, sass/_comments.sass */
+.comment-list .comment .comment-meta {
+  border-bottom: 1px solid white;
+  padding-bottom: 3px;
+  margin-bottom: 10px;
+}
+/* line 21, sass/_comments.sass */
+.comment-list .comment .comment-meta a {
+  color: white;
+  font-family: NeutraText;
+}
+/* line 24, sass/_comments.sass */
+.comment-list .comment-reply-link {
+  color: white;
+  font-family: NeutraText;
+}
+
+/* line 27, sass/_comments.sass */
+.form-allowed-tags {
+  display: none;
+}
+
+/* line 30, sass/_comments.sass */
+.comment-respond {
+  padding: 20px 45px;
+}
+/* line 32, sass/_comments.sass */
+.comment-respond .logged-in-as {
+  font-size: 13px;
+}
+/* line 35, sass/_comments.sass */
+.comment-respond .comment-form-comment label {
+  display: block;
+}
+
+/* line 38, sass/_comments.sass */
+.form-submit input#submit {
+  background: white;
+  display: block;
+  color: white;
+  background: #c9c3ba;
+  border: 1px solid white;
+  padding: 7px 10px 5px;
+  font-family: NeutraText;
+}
+/* line 46, sass/_comments.sass */
+.form-submit input#submit:hover {
+  box-shadow: 1px 5px 5px #b3aa9d;
+}
+
 @font-face {
   font-family: "SplendidOrnamenty";
   src: url("/wp-content/themes/ninafood/fonts/splendidornamenty.ttf");
